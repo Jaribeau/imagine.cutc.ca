@@ -120,7 +120,7 @@ h2 {
 
 .navbar-brand img {
   position: absolute;
-  top: -35px;
+  top: -10px;
   left: 35px;
 }
 
@@ -131,7 +131,7 @@ h2 {
 }
 
 .navbar-right li a {
-  padding: 35px 21px;
+  padding: 20px 21px;
   font-size: 22px;
   color: #fff;
   text-transform: uppercase;
@@ -206,7 +206,6 @@ h2 {
   opacity: 0.8;
   padding:10px 60px 35px;
   right: inherit;
-  text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
@@ -766,6 +765,12 @@ h2 {
 
 #footer a:hover {
   color:#1B7B98
+}
+
+.footer-top {
+  display: block;
+  overflow: hidden;
+  padding: 10px;
 }
 
 
