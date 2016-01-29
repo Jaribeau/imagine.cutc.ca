@@ -3,6 +3,11 @@
 
 
 /*************************
+******Genereal Custom*****
+**************************/
+
+
+/*************************
 *******Typography******
 **************************/
 
@@ -36,11 +41,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 36px
+}
+
+.accent {
+  color:#c8190f; 
 }
 
 .navbar-toggle {
@@ -191,6 +199,7 @@ h2 {
 #home {
   position: relative;
   overflow: hidden;
+  height: viewpoer
 }
 
 #main-slider img {
@@ -272,13 +281,7 @@ h2 {
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 130px 0 100px;
-}
-
-.watch {
-  position: absolute;
-  left: 0;
-  top: 7%;
+  padding: 50px 0 50px;
 }
 
 #explore h2 {
@@ -312,56 +315,10 @@ h2 {
   display: block;
   font-size: 40px;
   font-weight: 700;
-  height: 82px;
+  height: 60px;
   line-height: 79px;
   width: 75px;
   border-radius: 10px;
-  border-right: 1px solid #9e3e2e;
-  border-bottom: 1px solid #9e3e2e;
-}
-
-#countdown li .days {
-  background-color: #45b29d;
-  border-top: 1px solid #6ac1b1;
-  border-left: 1px solid #6ac1b1;
-}
-
-#countdown li .hours {
-  background-color: #efc94c; 
-  border-top: 1px solid #f2d470;
-  border-left: 1px solid #f2d470;
-}
-
-#countdown li .minutes {
-  background-color: #e27a3f;
-  border-top: 1px solid #e89565;
-  border-left: 1px solid #e89565;
-}
-
-#countdown li .seconds {
-  background-color: #df5a49;
-  border-top: 1px solid #e57b6d;
-  border-left: 1px solid #e57b6d;
-}
-
-#countdown li:before {
-  background-color: #FFFFFF;
-  content: "";
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 36px;
-  width: 1px;
-}
-
-#countdown li:after {
-  background-color: #FFFFFF;
-  content: "";
-  height: 11px;
-  right:0;
-  position: absolute;
-  top: 36px;
-  width: 1px;
 }
 
 .cart {
