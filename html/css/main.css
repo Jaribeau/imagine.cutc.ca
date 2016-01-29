@@ -299,7 +299,7 @@ h2 {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;*/
-  padding: 0px 70px 110px;
+  padding: 0px 70px 70px;
 }
 
 .about-section {
@@ -405,9 +405,9 @@ h2 {
  
 
  /*************************
-*******Event CSS******
+*******Speakers CSS******
 **************************/
-#event {
+#speakers {
   background-color: #33888F;
   background-image: url("../images/performar-bg.jpg");
   background-position: 50% 0;
@@ -416,44 +416,31 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.guitar {
-  position: absolute;
-  right:0;
-  top: 0
+.speakers-content {
+  padding: 0px 70px 70px;
 }
 
-
-#event h2 {
+#speakers h2 {
   color: #FFFFFF;
-  font-size: 36px;
-  font-weight: 300;
+}
+
+.single-speaker {
   margin-bottom: 40px;
-  margin-top: 70px;
-  text-transform: uppercase;
 }
 
-.single-event {
-  margin-bottom: 70px;
-}
-
-.single-event h4 {
+.single-speaker h4 {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 
 
-.single-event h5 {
+.single-speaker h5 {
   font-size: 18px;
   font-weight: 100;
   display: block;
-}
-
-#event-carousel {
-  position: relative;
 }
 
 .even-control-left, 
