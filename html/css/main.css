@@ -6,6 +6,18 @@
 ******Genereal Custom*****
 **************************/
 
+.section-title h2 {
+  font-size: 42px;
+  color: #c8190f;
+  padding: 20px;
+}
+
+.vertical-allign {
+  display: flex;
+  /*justify-content: center; /* align horizontal */*/
+  align-items: center; /* align vertical */
+}
+
 
 /*************************
 *******Typography******
@@ -47,7 +59,7 @@ h2 {
   font-size: 36px
 }
 
-.accent {
+.accent { 
   color:#c8190f; 
 }
 
@@ -269,6 +281,43 @@ h2 {
   border: 1px solid #b3160d;
 }
 
+
+
+/*************************
+*******About CSS**********
+**************************/
+
+#about {
+  background-color: #fff;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+
+.about-content {/*
+  background-image: url("../images/about-bg.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  padding: 0px 70px 110px;
+}
+
+.about-section {
+  padding-bottom: 30px;
+}
+
+#about h3 {
+  font-size: 25px;
+  color: #c8190f;
+  display: block;
+}
+
+#about p {
+  font-size: 18px;
+  color: #000000;
+}
+
+
 /*************************
 *******Explore CSS******
 **************************/
@@ -421,58 +470,6 @@ h2 {
 
 .even-control-right {
   right: 0;
-}
-
-
-/*************************
-*******About CSS**********
-**************************/
-
-#about {
-  background-color: #75B46E;  
-  position: relative;  
-  width: 100%;
-  display: flex;
-}
-
-.guitar2 {
-  top: 0;
-  width: 50%;
-}
-
-.guitar2 img {
-  padding-top: 3%;
-}
-
-.about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 70px 110px;
-}
-
-
-#about h2 {
-  margin-bottom: 23px;
-}
-
-.about-content p {
-  font-size: 17px;
-  font-family: 'Dosis',sans-serif;
-}
-
-#about .btn-primary {
-  background-color: #137c61;
-  color: #fff;
-  text-transform: capitalize;
-  border: none;
-  margin-top: 28px;
-}
-
-#about .btn-primary:hover {
-  background-color: #126d55
 }
 
 
