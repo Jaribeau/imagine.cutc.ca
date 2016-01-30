@@ -31,18 +31,6 @@
     margin-right: 30px;
   }
 
-  .guitar {
-    right:0;
-  }
-
-  .guitar2 {
-    height: 100%
-  }
-
-    .guitar2 img {
-      padding-top: 20%;
-    }
-
   .ear-piece {
     left: -15%;
   }
@@ -138,30 +126,34 @@
     width: inherit;
   }
 
+  .navbar-brand img {
+  left: 0px;
+  }
+
   .fixed-menu .navbar-right li a {
     padding: 7px 25px;
   }
 
   #home {
-    margin-top: 10%;
+    /*margin-top: 10%;*/
   }
 
-  #main-slider .carousel-caption {
-    bottom: 17%;
+  .carousel-caption {
+    bottom: 15%;
     padding: 10px;
     line-height: 0;
   }
 
-  #main-slider .carousel-caption h2 {
+  .carousel-caption h2 {
     font-size: 20px;
     margin-top: 3px;
   }
 
-  #main-slider .carousel-caption h4 {
+  .carousel-caption h4 {
     font-size: 16px;
   }
 
-  #main-slider .carousel-caption a {
+  .carousel-caption a {
     font-size: 14px;
     color: #2da1c5;
   }
@@ -291,11 +283,11 @@
     padding: 10px 25px;
   }
 
-  /* Home */
+  .navbar-brand img {
+  left: 0px;
+}
 
-  #home {
-    margin-top: 18%;
-  }
+  /* Home */
 
   .fixed-menu .container {
     width: 100%;

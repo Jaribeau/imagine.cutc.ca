@@ -53,6 +53,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
+  text-shadow: none;
 }
 
 h2 {
@@ -68,7 +69,7 @@ h2 {
 }
 
 .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #c8190f;
 }
 
 .navbar-toggle, 
@@ -85,7 +86,7 @@ h2 {
 .header-top {
   display: block;
   overflow: hidden;
-  padding: 10px;
+  padding: 50px;
 }
 
 .main-nav {
@@ -105,32 +106,17 @@ h2 {
   padding-left:20px;  
 }
 
-.social-icons .fa-facebook:hover {
-  color: #b3160d
-}
-
-.social-icons .fa-twitter:hover {
-  color:#b3160d
-}
-
-.social-icons .fa-google-plus:hover {
-  color:#b3160d
-}
-
-.social-icons .fa-youtube:hover{
-  color: #b3160d
-}
-
-.social-icons .fa-instagram:hover{
-  color: #b3160d
-}
-
-.social-icons .fa-envelope:hover{
+.social-icons 
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover,
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-envelope:hover {
   color: #b3160d
 }
 
 .navbar-brand {
-  /*opacity: .8;*/
   opacity: 1;
   height: 90px;
   margin: 20px;
@@ -145,16 +131,14 @@ h2 {
 }
 
 .navbar-right {
-  /*background-color: #d85e57;*/
   padding:0 95px 0 0;
-  opacity: .8
+  opacity: .9
 }
 
 .navbar-right li a {
-  padding: 20px 21px;
+  padding: 25px 21px;
   font-size: 22px;
   color: #fff;
-  text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
 }
@@ -162,13 +146,12 @@ h2 {
 .navbar-right li a:hover, 
 .navbar-right li a:focus,  
 .navbar-right .active a {
-  /*background-color: #fff;*/
   color: #c8190f
 }
 
 
 .fixed-menu {
-  background-color: #3b0704;
+  background-color: #fff;
   opacity: 0.8;
   position: fixed;
   top: 0;
@@ -183,6 +166,15 @@ h2 {
   font-size: 18px;
   padding: 20px 25px;
   text-shadow:inherit;
+  color: #c8190f;
+  text-decoration: none;
+}
+
+.fixed-menu .navbar-right li a:hover, 
+.fixed-menu .navbar-right li a:focus,  
+.fixed-menu .navbar-right .active a {
+  color: #c8190f;
+  font-weight: bold;
 }
 
 .fixed-menu .navbar-brand {
@@ -207,21 +199,23 @@ h2 {
 /*************************
 *******Home CSS******
 **************************/
-
 #home {
+  height: 100%;
+}
+
+#home 
+.home-content {
+  height: 98vh;
+  width: 100%;
+  background-image: url("../images/Toronto3.jpg");
+  background-size: cover;
+  background-position: 40% 50%;
   position: relative;
-  overflow: hidden;
-  height: viewpoer
 }
 
-#main-slider img {
-  width: 100%
-}
-
-#main-slider 
-.carousel-caption {
+.caption {
   background: none repeat scroll 0 0 #000000;
-  bottom: 14%;
+  bottom: 5%;
   float: left;
   left: 0;
   opacity: 0.8;
@@ -231,36 +225,28 @@ h2 {
   text-align: left;
 }
 
-
-#main-slider 
-.carousel-caption h2 {  
-  font-size: 38px;
- 
+#home h2 {  
+  font-size: 50px;
 }
 
-#main-slider 
-.carousel-caption h4 {
+#home h4 {
   font-size: 24px;
 }
 
-#main-slider 
-.carousel-caption a {
+#home a {
   font-size: 22px;
   color: #c8190f
 }
 
-#main-slider 
-.carousel-caption a:hover {
+#home a:hover {
   color: #b3160d
 }
 
-#main-slider 
-.carousel-caption a:hover i {
+#home a:hover i {
   margin-left: 35px
 }
 
-#main-slider 
-.carousel-caption a i {
+#home  a i {
   margin-left: 15px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -268,19 +254,6 @@ h2 {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-#main-slider 
-.carousel-indicators li {
-  background-color:#3b0704;
-  border: 1px solid #3b0704;
-}
-
-#main-slider 
-.carousel-indicators li.active {
-  background-color:#b3160d;
-  border: 1px solid #b3160d;
-}
-
 
 
 /*************************
@@ -319,7 +292,7 @@ h2 {
 
 
 /*************************
-*******Explore CSS******
+*******Countdown CSS******
 **************************/
 
 #explore {
@@ -330,7 +303,7 @@ h2 {
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 50px 0 50px;
+  padding: 15px 0 15px;
 }
 
 #explore h2 {
@@ -408,12 +381,11 @@ h2 {
 *******Speakers CSS******
 **************************/
 #speakers {
-  background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-color: #C34C39;
+  background-image: url("../images/speakers-bg.jpg");
   background-position: 50% 0;
-  background-size: contain;
   position: relative;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .speakers-content {

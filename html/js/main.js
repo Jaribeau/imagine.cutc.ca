@@ -13,7 +13,6 @@ jQuery(function($) {'use strict',
 
 	
 	//Scroll Menu
-
 	function menuToggle()
 	{
 		var windowWidth = $(window).width();
