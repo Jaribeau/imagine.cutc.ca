@@ -173,8 +173,7 @@ h2 {
 .fixed-menu .navbar-right li a:hover, 
 .fixed-menu .navbar-right li a:focus,  
 .fixed-menu .navbar-right .active a {
-  color: #c8190f;
-  font-weight: bold;
+  color: #3b0704;
 }
 
 .fixed-menu .navbar-brand {
@@ -277,6 +276,11 @@ h2 {
 
 .about-section {
   padding-bottom: 30px;
+}
+
+#about a {
+  text-decoration: underline;
+  color:#c8190f; 
 }
 
 #about h3 {
@@ -429,6 +433,83 @@ h2 {
 
 .even-control-right {
   right: 0;
+}
+
+
+
+/*************************
+****** Events CSS ****
+**************************/
+#static-photo {
+  background-image: url("../images/CUTC-2010-8-tint.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: middle;
+  height: 400px;
+}
+
+#static-photo h1{
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 120px;
+}
+
+
+/*************************
+****** Events CSS ****
+**************************/
+
+#events {
+  background-color: #fff;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+
+#events a {
+  text-decoration: underline;
+  color:#c8190f; 
+}
+
+#events p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.whycons {
+  margin-bottom: 0px; 
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.whycons p {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.whycons h2 {
+  padding-left: 0px;
+  color: #c8190f;
+}
+
+#events h3 {
+  font-size: 25px;
+  color: #c8190f;
+}
+
+#events h4 {
+  line-height: 40px;
+  font-size: 25px;
+  color: #c8190f;
+  padding-left: 10px;
+}
+
+.whycons img {
+  height: 60px;
+  width: 60px;
+  /*margin-left: 20px;*/
 }
 
 
