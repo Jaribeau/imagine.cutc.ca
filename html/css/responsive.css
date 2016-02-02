@@ -26,17 +26,8 @@
     padding: 20px;
   }
 
-  
   #countdown li {
     margin-right: 30px;
-  }
-
-  .ear-piece {
-    left: -15%;
-  }
-
-  #event .col-md-9 {
-    z-index: 10;
   }
 
 
@@ -75,35 +66,6 @@
  #countdown li {
   margin-right: 15px;
  }
-
-  .sponsor-control-left {
-    right:8%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  .guitar, .ear-piece, .light {
-    display: none;
-  }
-
-  .watch {
-    left: -8%
-  }
-
-  .guitar2 {
-    height: 100%;
-  }
-
-  .guitar2 img {
-    padding-top:38%;
-  }
-
-  .twit {
-    left: -5%;
-  }
-
 
 }
 
@@ -186,79 +148,13 @@
     top:25px;
   }
 
-  .cart a {
-    font-size: 18px;
-  }
-
-  .cart a i {
-    font-size: 20px;
-    padding:15px;
-  }
-
-   /*event */
-  .single-event {
-    margin-bottom: 40px;
-  }
-
   .whycons {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-
-  #event h2, 
-  #about h2, 
-  #sponsor h2 {
-    font-size: 30px;
-  }
-
-  .twitter-control-left, 
-  .twitter-control-right {
-    top: inherit;
-    bottom: -40px;
-  }
-
-  .twitter-control-left {
-    left: 46%;
-  }
-
-  .twitter-control-right {
-    right: 46%;
-  }
-
-  #sponsor {
-    background-position: right 0 bottom 0;
-  }
-
-  .sponsor-control-left, 
-  .sponsor-control-right {
-    top:0;
-  }
-
-  .sponsor-control-left {
-    right: 10%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  #sponsor .item ul li {
-    width: 30%;
-    margin-right:3%
-  }
-
-  #sponsor .item ul li:last-child {
-    margin-right: 0;
-   }
-
-
   #footer {
     font-size: 16px;
-  }
-
-  .watch, .guitar, .guitar2, .twit, .light, .ear-piece {
-    display: none;
   }
 
   .contact-section {
@@ -323,10 +219,6 @@
     color: #2da1c5;
   }
 
-  .carousel-indicators {
-    bottom: 0;
-  }
-
   /* Explore */
   #explore {
     background-size:cover;
@@ -356,92 +248,21 @@
     top: 18px
   }
 
-  .cart {
-    right:-209px;
-  }
-
-  .cart a {
-    font-size: 18px;
-  }
-
-  .cart a i {
-    font-size: 20px;
-    padding:12px;
-  }
-
-    /*event */
-  .single-event {
-    margin-bottom: 40px;
-  }
-
   .about-content {
     width: 100%;    
     padding: 70px 30px 110px;
   }
 
-  #event h2, 
-  #about h2, 
-  #sponsor h2 {
-    font-size: 30px;
-  }
-
-  .about-content p, 
-  #twitter-feed .item a, 
-  #twitter-feed .item p {
+  .about-content p {
     font-size: 15px;
-  }
-
-  .twitter-control-left, 
-  .twitter-control-right {
-    top: inherit;
-    bottom: -40px;
-  }
-
-  .twitter-control-left {
-    left: 46%;
-  }
-
-  .twitter-control-right {
-    right: 46%;
   }
 
   #sponsor {
     background-position: right 0 bottom;
   }
-
-  .sponsor-control-left, 
-  .sponsor-control-right {
-    top: 0;
-  }
-
-  .sponsor-control-left {
-    right: 10%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  #sponsor .item ul li {
-    width: 45%;
-    margin-right: 5%
-  }
-
-  #sponsor .item ul li:last-child {
-    margin-right: 0;
-   }
  
   #footer {
     font-size: 14px;
-  }
-
-  .watch, .guitar, .guitar2, .twit, .light, .ear-piece {
-    display: none;
-  }
-
-  .contact-section {
-    background-position: left 0 bottom 0;
-    background-size: cover;
   }
 
 }
