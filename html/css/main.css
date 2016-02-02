@@ -204,12 +204,12 @@ h2 {
 }
 
 .caption {
-  background: none repeat scroll 0 0 #000000;
-  bottom: 5%;
+  /*background: none repeat scroll 0 0 #000000;*/
+  bottom: 0%;
   float: left;
   left: 0;
   opacity: 0.8;
-  padding:10px 60px 35px;
+  padding: 10px 60px 35px;
   right: inherit;
   color: #fff;
   text-align: left;
@@ -523,7 +523,7 @@ h2 {
   background-repeat:no-repeat;
   position: relative;
   background-attachment: fixed;
-  padding-bottom: 70px;
+  padding: 15px 15px 15px;
 }
 
 #sponsor h2 {
@@ -535,13 +535,59 @@ h2 {
   margin: auto;
 }
 
+#sponsor p {
+  padding-top: 20px;
+}
+
+#sponsor a {
+  color: #c8190f;
+  text-decoration: underline;
+}
+  
+#sponsor a:hover {
+  color:#630c07
+}
+
+
 
 /*************************
 ******Contact CSS****
 **************************/
 
+#contact {  
+  background-color: #C34C39;
+  /*background-image: url("../images/event-bg.jpg");*/
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 15px 15px 15px;
+}
 
+#contact h2 {
+    color: #fff;
+}
 
+#contact p{
+  font-size: 20px;
+}
+
+#contact a {
+  color: #eebab7;
+  text-decoration: underline;
+}
+  
+#contact a:hover {
+  color:#e36887
+}
+
+#contact .fa-envelope{
+  color: #212121;
+  font-size: 250px;
+  margin-top: -130px;
+  padding-right: 20px;
+}
 
 
 /*************************
@@ -550,14 +596,15 @@ h2 {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg.png");
-  background-position: center bottom;
+  background-image: url("../images/footer-bg2.png");
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
   font-size: 20px;
-  padding: 35px 0;
+  padding: 50px 0;
   text-align: center;
+  height: 180px;
 }
 
 #footer a {

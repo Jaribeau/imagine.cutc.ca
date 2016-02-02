@@ -101,9 +101,7 @@
   }
 
   .carousel-caption {
-    bottom: 15%;
-    padding: 10px;
-    line-height: 0;
+    bottom: -5%;
   }
 
   .carousel-caption h2 {
@@ -259,6 +257,15 @@
 
   #sponsor {
     background-position: right 0 bottom;
+  }
+
+  #contact p{
+    font-size: 18px;
+  }
+
+  #contact .fa-envelope{
+    font-size: 150px;
+    margin-top: -70px;
   }
  
   #footer {
