@@ -381,6 +381,7 @@ h2 {
   background-position: 50% 0;
   position: relative;
   background-repeat: repeat;
+  padding-bottom: 70px;
 }
 
 .speakers-content {
@@ -429,7 +430,7 @@ h2 {
 
 
 /*************************
-****** Events CSS ****
+****** Static-Photo CSS ****
 **************************/
 #static-photo {
   background-image: url("../images/CUTC-2010-8-tint.jpg");
@@ -464,6 +465,7 @@ h2 {
   position: relative;  
   width: 100%;
   display: flex;
+  padding-bottom: 70px;
 }
 
 #events a {
@@ -474,6 +476,10 @@ h2 {
 #events p {
   font-size: 18px;
   color: #000000;
+}
+
+#events .grey h4{
+  color: #4A4A4A;
 }
 
 .whycons {
@@ -523,7 +529,7 @@ h2 {
   background-repeat:no-repeat;
   position: relative;
   background-attachment: fixed;
-  padding: 15px 15px 15px;
+  padding: 15px 15px 70px;
 }
 
 #sponsor h2 {
@@ -536,7 +542,8 @@ h2 {
 }
 
 #sponsor p {
-  padding-top: 20px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 #sponsor a {
@@ -562,7 +569,7 @@ h2 {
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 15px 15px 15px;
+  padding: 15px 15px 70px;
 }
 
 #contact h2 {

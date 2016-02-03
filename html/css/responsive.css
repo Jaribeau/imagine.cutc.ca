@@ -151,6 +151,10 @@
     padding-right: 20px;
   }
 
+#static-photo h1{
+  padding-top: 100px;
+}
+
   #footer {
     font-size: 16px;
   }

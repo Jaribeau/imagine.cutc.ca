@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 9 Copy + Robot</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-9-Copy-+-Robot" sketch:type="MSLayerGroup">
+            <circle id="Oval-9-Copy" fill="#D0011B" sketch:type="MSShapeGroup" cx="75" cy="75" r="75"></circle>
+            <g id="Robot" transform="translate(39.130435, 26.086957)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <ellipse id="Oval" cx="22.826087" cy="16.3043478" rx="3.26086957" ry="3.26086957"></ellipse>
+                <ellipse id="Oval" cx="48.9130435" cy="16.3043478" rx="3.26086957" ry="3.26086957"></ellipse>
+                <path d="M0,38.3722826 L31.5121439,38.3722826 L31.5121439,41.6396739 L0,41.6416304 L0,97.826087 L18.3208301,97.826087 L32.2649735,84.018913 L24.2515863,76.0852174 L32.2649735,68.1505435 L29.9225076,65.8320652 L19.5686304,76.0852174 L24.1112952,80.5842391 L14.9439644,89.6625 L8.2455591,89.6625 L8.2455591,49.8052174 L63.4935713,49.8052174 L63.4935713,89.6615217 L56.797142,89.6615217 L47.6288232,80.5832609 L52.172476,76.0842391 L41.8156349,65.831087 L39.473169,68.1495652 L47.4875442,76.0842391 L39.473169,84.0179348 L53.4183004,97.826087 L71.7391304,97.826087 L71.7391304,41.6416304 L40.2269865,41.6406522 L40.2269865,38.3732609 L71.7391304,38.3732609 L71.7391304,0 L0,0 L0,38.3722826 Z M58.6956522,26.0869565 L6.52173913,26.0869565 L6.52173913,6.52173913 L58.6956522,6.52173913 L58.6956522,26.0869565 L58.6956522,26.0869565 Z" id="Shape"></path>
+                <path d="M32.6086957,74.9998309 L35.8693961,71.7391304 L39.1304348,75.0001691 L35.8697343,78.2608696 L32.6086957,74.9998309 L32.6086957,74.9998309 Z" id="Rectangle-path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

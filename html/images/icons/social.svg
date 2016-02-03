@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Social</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Social" sketch:type="MSLayerGroup">
+            <circle id="Oval-9" fill="#D0011B" sketch:type="MSShapeGroup" cx="75" cy="75" r="75"></circle>
+            <g id="noun_14388_cc" transform="translate(34.239130, 37.635870)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M64.9221014,39.5593944 C59.5615942,47.349573 50.9402174,52.4068323 41.2137681,52.4068323 C31.298913,52.4068323 22.5353261,47.1496506 17.201087,39.1003494 C6.79619565,47.0137811 0,60.0164984 0,74.7282609 L81.5217391,74.7282609 C81.5217391,60.2998835 74.9882246,47.5106755 64.9221014,39.5593944 L64.9221014,39.5593944 Z" id="Shape"></path>
+                <ellipse id="Oval" cx="40.307971" cy="21.8361801" rx="20.3804348" ry="21.8361801"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
