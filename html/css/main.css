@@ -197,9 +197,11 @@ h2 {
 .home-content {
   height: 98vh;
   width: 100%;
-  background-image: url("../images/Toronto3.jpg");
+  background-image: url("../images/Toronto5.jpg");
   background-size: cover;
-  background-position: 40% 50%;
+  /*background-position: 40% 50%;*/
+  background-position: 0% 50%;
+  background-position: top;
   position: relative;
 }
 
@@ -217,10 +219,12 @@ h2 {
 
 #home h2 {  
   font-size: 50px;
+  color: #000;
 }
 
 #home h4 {
   font-size: 24px;
+  color: #c8190f;
 }
 
 #home a {
@@ -243,6 +247,12 @@ h2 {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+#home 
+.signup-form {
+  margin: auto;
+  width: 18em;
 }
 
 
@@ -539,6 +549,7 @@ h2 {
 #sponsor img {
   padding: 20px;
   margin: auto;
+  display: block;
 }
 
 #sponsor p {
@@ -554,6 +565,25 @@ h2 {
 #sponsor a:hover {
   color:#630c07
 }
+
+#sponsor .row {
+  margin-bottom: 20px;
+}
+
+#sponsor .title img{
+  margin-top:-130px;
+  height: 250px;
+}
+
+#sponsor .silver img{
+  height: 130px;
+}
+
+#sponsor .bronze img{
+  height: 100px;
+}
+
+#sponsor .label {}
 
 
 
