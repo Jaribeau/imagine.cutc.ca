@@ -5,6 +5,9 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+  #home h1{
+    font-size: 9rem;
+  }
 
   .navbar-right {
     padding: 0 30px 0 0;
@@ -35,6 +38,10 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+
+  #home h1{
+    font-size: 7rem;
+  }
 
   .navbar-brand {
     width: 215px;
@@ -71,6 +78,10 @@
 
 /* xs */
 @media (max-width: 767px) {
+
+  #home h1{
+    font-size: 5rem;
+  }
 
   .main-nav .container {
     display: none;

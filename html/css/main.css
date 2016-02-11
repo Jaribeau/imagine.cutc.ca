@@ -78,6 +78,10 @@ h2 {
   outline: none;
 }
 
+.nav-pad {
+  margin-top: 20px;
+}
+
 
 /*************************
 *******Header CSS******
@@ -128,16 +132,16 @@ h2 {
 
 .navbar-right li a {
   padding: 25px 21px;
-  font-size: 22px;
-  color: #fff;
-  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-size: 18px;
+  color: #c8190f;
+  font-family: 'Arial', 'sans-serif';
   font-weight: 300;
 }
 
 .navbar-right li a:hover, 
 .navbar-right li a:focus,  
 .navbar-right .active a {
-  color: #c8190f
+  color: #3b0704
 }
 
 
@@ -191,35 +195,40 @@ h2 {
 **************************/
 #home {
   height: 100%;
+  text-align: center;
 }
 
 #home 
 .home-content {
   height: 98vh;
   width: 100%;
-  background-image: url("../images/Toronto5.jpg");
+  background-image: url("../images/Toronto11.jpg");
   background-size: cover;
   /*background-position: 40% 50%;*/
-  background-position: 0% 50%;
-  background-position: top;
+  background-position: 30% 20%;
   position: relative;
 }
 
 .caption {
   /*background: none repeat scroll 0 0 #000000;*/
-  bottom: 0%;
-  float: left;
-  left: 0;
-  opacity: 0.8;
-  padding: 10px 60px 35px;
-  right: inherit;
-  color: #fff;
-  text-align: left;
+  margin-top: 200px;
+}
+
+#home h1 {
+  font-family: 'Arial', 'sans-serif';
+  font-size: 90px;
+  color: #b3160d;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 0px;
+  margin: auto;
 }
 
 #home h2 {  
-  font-size: 50px;
-  color: #000;
+  font-family: 'Arial', 'sans-serif';
+  font-size: 30px;
+  color: #d85e57;
+  margin: auto;
 }
 
 #home h4 {
@@ -346,38 +355,6 @@ h2 {
   line-height: 79px;
   width: 75px;
   border-radius: 10px;
-}
-
-.cart {
-  background-color: #b34534;  
-  position: absolute;
-  right:-200px;
-  top: 37%;
-  width:252px;
-   -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-}
-
-.cart:hover {
-  right:0;
-}
-
-
-.cart a {
-  color: #FFFFFF;
-  display: block;
-  font-size: 24px;
-  text-transform: uppercase;
-}
-
-.cart a i {
-  font-size: 30px;  
-  padding: 20px 12px;
-  background-color: #A64030; 
-  margin-right: 3px;
 }
 
  
