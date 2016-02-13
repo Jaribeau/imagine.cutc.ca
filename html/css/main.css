@@ -9,8 +9,9 @@
 
 .section-title h2 {
   font-size: 42px;
+  padding: 60px;
   color: #c8190f;
-  padding: 20px;
+  text-align: center;
 }
 
 .vertical-allign {
@@ -203,16 +204,16 @@ h2 {
 .home-content {
   height: 98vh;
   width: 100%;
-  background-image: url("../images/Toronto11.jpg");
+  background-image: url("../images/ImagineBackground.jpg");
   background-size: cover;
   /*background-position: 40% 50%;*/
-  background-position: 30% 20%;
+  background-position: 80% 20%;
   position: relative;
 }
 
 .caption {
   /*background: none repeat scroll 0 0 #000000;*/
-  margin-top: 200px;
+  margin-top: 20%;
 }
 
 #home h1 {
@@ -281,7 +282,7 @@ h2 {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;*/
-  padding: 0px 70px 70px;
+  padding: 0px 10% 70px;
 }
 
 .about-section {
@@ -368,10 +369,13 @@ h2 {
   position: relative;
   background-repeat: repeat;
   padding-bottom: 70px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.speakers-content {
-  padding: 0px 70px 70px;
+#speakers img {  
+  border-radius: 50%;
+  margin: auto;
 }
 
 #speakers h2 {
@@ -380,37 +384,18 @@ h2 {
 
 .single-speaker {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .single-speaker h4 {
   color: #FFFFFF;
   font-size: 24px;
-  font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
 }
 
-
 .single-speaker h5 {
   font-size: 18px;
-  font-weight: 100;
-  display: block;
-}
-
-.even-control-left, 
-.even-control-right {
-  position: absolute;
-  font-size: 24px;
-  color: #fff;
-  top: 0;
-}
-
-.even-control-left {
-  right: 3%
-} 
-
-.even-control-right {
-  right: 0;
 }
 
 
@@ -558,8 +543,6 @@ h2 {
 #sponsor .bronze img{
   height: 100px;
 }
-
-#sponsor .label {}
 
 
 
