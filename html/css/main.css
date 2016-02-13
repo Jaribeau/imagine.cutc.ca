@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 /*************************
@@ -24,16 +25,16 @@
 **************************/
 
 body {
-  font-family: 'Dosis', sans-serif;
-  font-size: 17px;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 14px;
   color: #fff
 }
 
 
 .btn {
   border-radius: 0;
-  font-family: 'Yanone Kaffeesatz','sans-serif';
-  font-size: 20px;
+  font-family: 'Arial', 'sans-serif';
+  font-size: 17px;
   padding: 9px 23px;
 }
 
@@ -51,13 +52,13 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-family: 'Open Sans', 'sans-serif';
   font-weight: 300;
   text-shadow: none;
 }
 
 h2 {
-  font-size: 36px
+  font-size: 25px
 }
 
 .accent { 
@@ -226,14 +227,13 @@ h2 {
 
 #home h2 {  
   font-family: 'Arial', 'sans-serif';
-  font-size: 30px;
   color: #d85e57;
   margin: auto;
 }
 
 #home h4 {
-  font-size: 24px;
-  color: #c8190f;
+  font-size: 20px;
+  color: #7D878A;
 }
 
 #home a {
@@ -294,13 +294,12 @@ h2 {
 }
 
 #about h3 {
-  font-size: 25px;
+  font-size: 20px;
   color: #c8190f;
   display: block;
 }
 
 #about p {
-  font-size: 18px;
   color: #000000;
 }
 
