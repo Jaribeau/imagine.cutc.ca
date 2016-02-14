@@ -9,30 +9,9 @@
     font-size: 9rem;
   }
 
-  .navbar-right {
-    padding: 0 30px 0 0;
-  }
-
-  .navbar-right li a {
-    padding: 35px 15px;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .fixed-menu .navbar-right {
-    padding-right: 30px;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 20px;
-  }
-
   #countdown li {
     margin-right: 30px;
   }
-
 
 }
 
@@ -43,31 +22,15 @@
     font-size: 7rem;
   }
 
+  #home 
+  .home-content
+  {
+    background-position: 80% 20%;
+  }
+
   .navbar-brand {
     width: 215px;
     height: 60px;
-  }
-
-  .navbar-right {
-    padding: 0;
-  }
-
-  .navbar-right li a {
-    padding:20px 11px;
-    font-size: 17px;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .fixed-menu .navbar-right {
-    padding-right: 30px;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 20px 15px;
-    font-size: 17px;
   }
  
  #countdown li {
@@ -83,16 +46,10 @@
     font-size: 5rem;
   }
 
-  .main-nav .container {
-    display: none;
-  }
-  
-  .fixed-menu .container {
-    display: block;
-  }
-
-   .fixed-menu .container {
-    width: 100%;
+  #home 
+  .home-content
+  {
+    background-position: 85% 20%;
   }
 
   .navbar-brand {
@@ -103,30 +60,8 @@
   left: 0px;
   }
 
-  .fixed-menu .navbar-right li a {
-    padding: 7px 25px;
-  }
-
   #home {
     /*margin-top: 10%;*/
-  }
-
-  .carousel-caption {
-    bottom: -5%;
-  }
-
-  .carousel-caption h2 {
-    font-size: 20px;
-    margin-top: 3px;
-  }
-
-  .carousel-caption h4 {
-    font-size: 16px;
-  }
-
-  .carousel-caption a {
-    font-size: 14px;
-    color: #2da1c5;
   }
 
   #explore {
@@ -162,9 +97,9 @@
     padding-right: 20px;
   }
 
-#static-photo h1{
-  padding-top: 100px;
-}
+  #static-photo h1{
+    padding-top: 100px;
+  }
 
   #footer {
     font-size: 16px;
@@ -191,27 +126,11 @@
 /* XS Portrait */
 @media (max-width: 479px) {
 
-  .main-nav .container {
-    display: none;
-  }
-
-  .fixed-menu .container {
-    display: block;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 10px 25px;
-  }
-
   .navbar-brand img {
   left: 0px;
 }
 
   /* Home */
-
-  .fixed-menu .container {
-    width: 100%;
-  }
 
   .navbar-brand {
     width: inherit;

@@ -20,6 +20,20 @@
   align-items: center; /* align vertical */
 }
 
+.hide {
+  display: none;
+}
+
+.centermiddle {
+  display: block;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  opacity: 0.05;
+  height: 70% !important;
+  width: auto !important;
+}
 
 /*************************
 *******Typography******
@@ -80,30 +94,26 @@ h2 {
   outline: none;
 }
 
-.nav-pad {
-  margin-top: 20px;
-}
-
 
 /*************************
 *******Header CSS******
 **************************/
 
-.header-top {
-  display: block;
-  overflow: hidden;
-  padding: 50px;
-}
-
-.main-nav {
+.scrolling-navbar {
   position: absolute;
   width: 100%;
   z-index: 999;
 }
 
-.main-nav 
-.container {
+.header-top {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 50px;
+}
+
+.scrolling-navbar.container {
   width: 100%
+  right: 0;
 }
 
 .social-icons a {
@@ -128,12 +138,23 @@ h2 {
 }
 
 .navbar-right {
-  padding:0 95px 0 0;
-  opacity: .9
+  padding:20px 95px 0 0;
+  opacity: .9;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #0e0e0e;
+  opacity: 0.9;
+}
+
+li {
+  display: inline;
 }
 
 .navbar-right li a {
-  padding: 25px 21px;
+  margin: 25px 21px;
+  padding: 5px 7px;
   font-size: 18px;
   color: #c8190f;
   font-family: 'Arial', 'sans-serif';
@@ -143,25 +164,16 @@ h2 {
 .navbar-right li a:hover, 
 .navbar-right li a:focus,  
 .navbar-right .active a {
-  color: #3b0704
-}
-
-
-.fixed-menu {
-  background-color: #fff;
-  opacity: 0.8;
-  position: fixed;
-  top: 0;
-}
-
-.fixed-menu .navbar-right {
-  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c8190f;
 }
 
 
 .fixed-menu .navbar-right li a {
   font-size: 18px;
-  padding: 20px 25px;
+  margin: 20px 25px;
+  padding: 5px 7px;
   text-shadow:inherit;
   color: #c8190f;
   text-decoration: none;
@@ -170,7 +182,6 @@ h2 {
 .fixed-menu .navbar-right li a:hover, 
 .fixed-menu .navbar-right li a:focus,  
 .fixed-menu .navbar-right .active a {
-  color: #3b0704;
 }
 
 .fixed-menu .navbar-brand {
@@ -186,8 +197,9 @@ h2 {
   top: 5px;
 }
 
-.fixed-menu .header-top {
-  display: none;
+.nav-logo {
+  height: 20px;
+  top: 5px;
 }
 
 
@@ -207,7 +219,7 @@ h2 {
   background-image: url("../images/ImagineBackground.jpg");
   background-size: cover;
   /*background-position: 40% 50%;*/
-  background-position: 80% 20%;
+  background-position: 50% 50%;
   position: relative;
 }
 
