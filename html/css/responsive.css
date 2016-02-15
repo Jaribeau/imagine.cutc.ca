@@ -79,6 +79,10 @@
     top:25px;
   }
 
+  .about-icon-row img {
+    height: 60px;
+  }
+
   .whycons {
     padding-left: 20px;
     padding-right: 20px;

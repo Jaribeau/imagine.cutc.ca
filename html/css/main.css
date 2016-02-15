@@ -236,12 +236,6 @@ li {
   transition: all 0.3s ease-in-out;
 }
 
-#home 
-.signup-form {
-  margin: auto;
-  width: 18em;
-}
-
 .buy-tickets {
   font-size: 1.5em;
   margin-top: 30px;
@@ -266,12 +260,24 @@ li {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;*/
-  padding: 0% 10% 70px 0%;
+  padding: 0% 10% 70px 10%;
 }
 
 .about-section {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
+
+
+.about-section img{
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.about-icon-row img {
+  height: 100px;
+  margin-top: 40px;
+}
+
 
 #about a {
   text-decoration: underline;
@@ -695,11 +701,11 @@ li {
   color:#630c07
 }
 
-#contact .fa-envelope{
-  color: #212121;
-  font-size: 250px;
-  margin-top: -130px;
-  padding-right: 20px;
+#contact 
+.signup-form {
+  margin: auto;
+  width: 18em;
+  text-align: center;
 }
 
 .social-icons 
