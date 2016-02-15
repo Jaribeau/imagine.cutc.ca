@@ -388,7 +388,84 @@ li {
   /*margin-top: 8%;*/
   white-space: normal;
 }
- 
+
+
+
+
+
+/*************************
+******Twitter CSS****
+**************************/
+
+#twitter {
+  background-color: #fff;
+  position: relative;
+  padding: 0px 0 70px;
+  overflow: hidden;
+}
+
+.twit {
+  position: absolute;
+  left: 0;
+  top:-42%;
+}
+
+#twitter-feed .item {
+  text-align: center;
+  padding: 10px;
+}
+
+#twitter-feed .item img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+ #twitter-feed .item a, 
+#twitter-feed .item p { 
+  font-family: 'Arial', 'sans-serif';
+}
+
+#twitter-feed .item p {
+  color: #3D3D3D;
+  padding: 0 40px 0 40px; 
+}
+
+#twitter-feed .item a {
+  color:#C34C39;
+}
+
+.twitter-control-left, 
+.twitter-control-right {
+  position: absolute;
+  color: #C34C39;
+  top: 59%;
+  font-size: 50px;
+}
+
+.twitter-control-left:hover, 
+.twitter-control-right:hover,
+.twitter-control-left:focus, 
+.twitter-control-right:focus {
+  position: absolute;
+  color: #C34C39;
+  top: 59%;
+  font-size: 50px;
+}
+
+.twitter-control-left {
+  left: 0;
+  padding-left: 30px;
+}
+
+.twitter-control-right {
+  right:0;
+  padding-right: 30px;
+} 
+
 
 
 
