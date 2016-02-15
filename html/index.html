@@ -29,23 +29,19 @@
 <body>
 	<header id="header" role="banner">		
 		<div class="scrolling-navbar">
-			<div class="container">  
-		        <div class="row">
-	                <ul class="navbar-right">   
-		                <li class="nav-logo">
-		                	<a href="index.html">
-		                		<img class="img-responsive" src="images/cutc-logo-100.png" alt="logo">
-		                	</a></li>           
-	                    <li class="scroll active"><a href="#home">Home</a></li>
-	                    <li class="scroll"><a href="#about">About</a></li>
-	                    <li class="scroll"><a href="#speakers">Speakers</a></li>                     
-	                    <li class="scroll"><a href="#events">Events</a></li>
-	                    <!-- <li class="no-scroll"><a href="#twitter">Twitter</a></li> -->
-	                    <li><a class="no-scroll" href="#" target="_blank">TICKETS</a></li>
-	                    <li class="scroll"><a href="#contact">Contact</a></li>       
-	                </ul>
-		        </div>
-	        </div>
+            <ul class="navbar-right">   
+                <li class="hide-border"><a href="index.html">
+                		<img class="nav-logo" src="images/cutc-logo-100.png" alt="logo">
+                	</a>
+                </li>           
+                <li class="scroll active"><a href="#home">Home</a></li>
+                <li class="scroll"><a href="#about">About</a></li>
+                <li class="scroll"><a href="#speakers">Speakers</a></li>                     
+                <li class="scroll"><a href="#events">Events</a></li>
+                <li class="scroll"><a href="#sponsors">Sponsors</a></li>
+                <li class="scroll"><a href="#contact">Contact</a></li>       
+                <li><a class="no-scroll" href="#" target="_blank">TICKETS</a></li>
+            </ul>
         </div>                    
     </header><!--/#header--> 
 
@@ -57,12 +53,12 @@
 			<!-- 1600 x 850 is ideal size for these photos, maybe -->
 			<!-- <img class="img-responsive center-block" src="images/Toronto3.jpg" alt="images/Toronto3small.jpg"> -->
 			<div class="caption">
-				<!-- <img src="images/cutc-logo-250.png"> -->
+				<!-- <img src="images/cutc-logo-100.png"> -->
 				<h4>CUTC 2016</h4>
 				<h1>I M A G I N E</h1>
 				<h4>MaRS Discovery District, Toronto</h4>
 				<h4>May 7-8, 2016</h4>
-				<button>Buy Tickets</button>
+				<button class="buy-tickets">Buy Tickets</button>
 				<!-- <a href="#contact">GET YOUR TICKET <i class="fa fa-angle-right"></i></a> -->
 				<!-- Signup Form -->
 <!-- 				<div class="signup-form" >
@@ -72,7 +68,7 @@
 					</form>
 				</div> -->
 			</div>
-			<!-- <img class="img-responsive centermiddle" src="images/cutc-logo-lg.png" alt="logo"> -->
+			<img class="img-responsive centermiddle" src="images/cutc-logo-lg.png" alt="logo">
 			<!-- <img class="img-responsive centermiddle" src="images/CUTCLogoWithCircuits.png" alt="logo"> -->
     	</div>
     </section><!--/#home-->
@@ -86,25 +82,25 @@
 				<div class="col-md-6 col-sm-5">
 					<h2>conference kickoff in:</h2>
 				</div>				
-				<div class="col-sm-7 col-md-6">					
-					<ul id="countdown">
-						<li>					
-							<span class="days time-font">00</span>
-							<p>days </p>
-						</li>
-						<li>
-							<span class="hours time-font">00</span>
-							<p class="">hours </p>
-						</li>
-						<li>
-							<span class="minutes time-font">00</span>
-							<p class="">minutes</p>
-						</li>
-						<li>
-							<span class="seconds time-font">00</span>
-							<p class="">seconds</p>
-						</li>				
-					</ul>
+				<div id="countdown" class="col-sm-7 col-md-6">
+						<ul >
+							<li>					
+								<span class="days time-font">00</span>
+								<p>days </p>
+							</li>
+							<li>
+								<span class="hours time-font">00</span>
+								<p class="">hours </p>
+							</li>
+							<li>
+								<span class="minutes time-font">00</span>
+								<p class="">minutes</p>
+							</li>
+							<li>
+								<span class="seconds time-font">00</span>
+								<p class="">seconds</p>
+							</li>				
+						</ul>
 				</div>
 			</div>
 		</div>
@@ -155,9 +151,37 @@
 
 
 
+	<section id="testimonials">
+		<div class"container testimonials-content">
+			<div class="row section-title">
+				<h2>TESTIMONIALS</h2>
+			</div>
+			<div class="center-float scrolling-container">
+				<article>							
+					<img class="" src="images/speakers/DaveWilkin10kCoffeesCoFounder.jpg" alt="event-image">
+					<div class="testimonial-article ">
+							<p>“CUTC provides an excellent opportunity for personal development while offering important insights into the dynamic and fast-paced world of new technologies. Each of you is committed to excellence, and I am certain that this conference will assist in preparing you for the challenges of the future"
+							</p>
+							<p><b>- Jean Chretien, 20th Prime minister of Canada</b></p> 
+					</div>
+				</article>
+
+				<article>							
+					<img class="" src="images/speakers/DaveWilkin10kCoffeesCoFounder.jpg" alt="event-image">
+					<div class="testimonial-article ">
+							<p><b>The Globe and Mail</b> called CUTC "a forum that aims to shape the future of technology in Canada."</p>
+					</div>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+
+
 
 	<section id="speakers">
-		<div class="container">
+		<div class="container speakers-content">
 			<div class="row section-title">
 				<h2>SPEAKERS</h2>
 			</div>
@@ -240,21 +264,19 @@
 							<h4>Tech Expo</h4>
 						</div>
 						<div class="col-xs-10">
-							<p>Insert interesting blurb about how people can showoff cool projects and 
-								stuff at the tech expo. Coooooooooooool.</p>
+							<p>The exposition enables you to interact with companies and organizations to experience firsthand the future of technology through demos of gadgets and innovations in hardware, robotics, wearables, virtual reality, IoT and more. Previous participants include Microsoft, BlackBerry, Bell, the world-record holding University of Waterloo Solar Car team and others.</p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-xs-1">
-							<img src="images/icons/product-vision-challenge.svg">
+							<img src="images/icons/pitch-competition.svg">
 						</div>
 						<div class="col-xs-offset-1 col-xs-9 grey">
-							<h4>Product Vision Challenge</h4>
+							<h4>The Imagine Pitch Competition</h4>
 						</div>
 						<div class="col-xs-10">
-							<p>Insert interesting blurb about how people can showoff cool projects and 
-								stuff at the tech expo. Coooooooooooool.</p>
+							<p>Pitch your idea or startup at the conference to industry judges and successful entrepreneurs to compete for mentorship, office hours and prizes.</p>
 						</div>
 					</div>
 
@@ -266,24 +288,23 @@
 							<h4>Mini-Challenges</h4>
 						</div>
 						<div class="col-xs-10">
-							<p>Insert interesting blurb about how people can showoff cool projects and 
-								stuff at the tech expo. Coooooooooooool.</p>
+							<p>These short competitions allow you to learn by doing. With multiple topic options from Security and Coding to Design and Product, they’re the perfect way to impress employers looking for their next all-star employee.</p>
 						</div>
 					</div>
 				</div>
 
 				<!-- Right Events Column -->
 				<div class="col-xs-12 col-sm-6">
+
 					<div class="row">
 						<div class="col-xs-1">
-							<img src="images/icons/pitch-competition.svg">
+							<img src="images/icons/product-vision-challenge.svg">
 						</div>
 						<div class="col-xs-offset-1 col-xs-9 grey">
-							<h4>The Imagine Pitch Competition</h4>
+							<h4>Product Vision Challenge</h4>
 						</div>
 						<div class="col-xs-10">
-							<p>Insert interesting blurb about how people can showoff cool projects and 
-								stuff at the tech expo. Coooooooooooool.</p>
+							<p>You will be challenged to solve real-world problems with technology through this unique case competition. Work together with others before the conference using a human-centered design approach to propose your ideas as real world products.</p>
 						</div>
 					</div>
 
@@ -295,8 +316,7 @@
 							<h4>Office Hours</h4>
 						</div>
 						<div class="col-xs-10">
-							<p>Insert interesting blurb about how people can showoff cool projects and 
-								stuff at the tech expo. Coooooooooooool.</p>
+							<p>An exclusive opportunity if you're working on a project or company to get mentorship from accelerators, entrepreneurs and industry leaders.</p>
 						</div>
 					</div>
 
@@ -308,8 +328,7 @@
 							<h4>Maker Fair</h4>
 						</div>
 						<div class="col-xs-10">
-							<p>Insert interesting blurb about how people can showoff cool projects and 
-								stuff at the tech expo. Coooooooooooool.</p>
+							<p>A forum for the maker in you to showcase your projects, companies and stories to inspire your peers to start building.</p>
 						</div>
 					</div>
 				</div>
@@ -319,28 +338,28 @@
 	
 
 	
-	<section id="sponsor">
+	<section id="sponsors">
 		<div class="container">
 			<div class="row section-title">
 				<h2>SPONSORS</h2>
 			</div>
 			<div class="row title">
-				<a href="#"><img class="" src="images/sponsor/CGI.svg" alt=""></a>
+				<a href="https://www.cgi.com/en/careers/students-and-graduates" target="_blank"><img class="" src="images/sponsor/CGI.svg" alt=""></a>
 			</div>
 			<div class="row silver">
-				<div class="col-sm-offset-2 col-sm-3">
-					<a href="#"><img class="" src="images/sponsor/rbc.svg" alt=""></a>
+				<div class="col-xs-offset-0 col-sm-offset-2 col-sm-3">
+					<a href="http://www.rbcroyalbank.com/student-solution/" target="_blank"><img class="" src="images/sponsor/RBC.svg" alt=""></a>
 				</div>
 				<div class="col-sm-3">
-					<a href="#"><img class="" src="images/sponsor/accenture.svg" alt=""></a>
+					<a href="https://www.accenture.com/ca-en" target="_blank"><img class="" src="images/sponsor/accenture.svg" alt=""></a>
 				</div>
 			</div>
 			<div class="row bronze">
 				<div class="col-xs-offset-0 col-sm-offset-3 col-sm-2">
-					<a href="#"><img class="" src="images/sponsor/magnet-forensics-w.png" alt=""></a>
+					<a href="https://www.magnetforensics.com/" target="_blank"><img class="" src="images/sponsor/magnet-forensics-w.png" alt=""></a>
 				</div>
 				<div class="col-xs-offset-0 col-sm-offset-1 col-sm-2">
-					<a href="#"><img class="" src="images/sponsor/pepsi.svg" alt=""></a>
+					<a href="https://pepsi.ca/EN/" target="_blank"><img class="" src="images/sponsor/pepsi.svg" alt=""></a>
 				</div>
 			</div>
 			<p>Interested in partnering with us? <a href="mailto:sponsorships.2016@cutc.ca?Subject=CUTC16 Partnership Info" target="_blank">Get in touch!</a><p>
@@ -356,9 +375,11 @@
 			</div>
 			<div>
 				<p>Got questions? We've got answers! </br> E-mail us at <a href="mailto:info@cutc.ca?Subject=CUTC16 Partnership Info" target="_blank">info@cutc.ca</a> or hit us up via <a href="https://www.facebook.com/ilovecutc/" target="_blank">Facebook</a>  or <a href="https://twitter.com/CUTC_Team" target="_blank">Twitter</a>.<p>
-			</div>
-			<div class="col-xs-3">
-				<!-- <i class="fa fa-envelope"></i> -->
+				<div class="text-center social-icons">
+					<a href="https://twitter.com/CUTC_Team" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.facebook.com/ilovecutc/" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/cutc_team/" target="_blank"><i class="fa fa-instagram"></i></a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -368,13 +389,8 @@
     <footer id="footer">
         <div class="container">
             <div class="text-center">
-                <p> Copyright &copy;2016<a target="_blank" href="http://cutcfoundation.org/"> CUTC Foundation </a></p>                
+                <p> Copyright &copy;2016<a target="_blank" href="http://cutcfoundation.org/"> CUTC Foundation </a></p>          
             </div>
-			<div class="social-icons">
-				<a href="https://twitter.com/CUTC_Team" target="_blank"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.facebook.com/ilovecutc/" target="_blank"><i class="fa fa-facebook"></i></a>
-				<a href="https://www.instagram.com/cutc_team/" target="_blank"><i class="fa fa-instagram"></i></a>
-			</div>
         </div>
     </footer>
     <!--/#footer-->
