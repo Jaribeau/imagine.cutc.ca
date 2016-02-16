@@ -345,10 +345,10 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #8b110a;
+		background-color: #3B6D99;
 		border-radius: 6px;
 		border: 0;
-		color: #ffffff !important;
+		color: #fff !important;
 		cursor: pointer;
 		display: inline-block;
 		height: 2.75em;
