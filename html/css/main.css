@@ -57,7 +57,7 @@ body {
 
 .btn {
   border-radius: 0;
-  font-family: 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'sans-serif';
   font-size: 17px;
   padding: 9px 23px;
 }
@@ -118,8 +118,7 @@ h2 {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #0e0e0e;
-  opacity: 0.8;
+  background-color: rgba(14,14,14,0.80);
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -134,7 +133,7 @@ li {
   padding: 5px 7px;
   font-size: 18px;
   color: #c8190f;
-  font-family: 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'sans-serif';
   font-weight: 300;
   text-decoration: none;
   text-shadow:inherit;
@@ -186,7 +185,11 @@ li {
 
 .caption {
   /*background: none repeat scroll 0 0 #000000;*/
-  margin-top: 15%;
+  /*margin-top: 15%;*/
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .caption img {
@@ -198,7 +201,7 @@ li {
   font-size: 90px;
   color: #b3160d;
   font-weight: 500;
-  letter-spacing: 5px;
+  letter-spacing: 20px;
   padding: 0px;
   margin: auto;
 }
@@ -239,6 +242,7 @@ li {
 .buy-tickets {
   font-size: 1.5em;
   margin-top: 30px;
+  margin-bottom: 0;
   padding: 0px 40px 0px 40px;
 }
 
@@ -479,8 +483,9 @@ li {
 *******Speakers CSS******
 **************************/
 #speakers {
-  background-color: #C34C39;
-  background-image: url("../images/speakers-bg.jpg");
+  /*background-color: #C34C39;*/
+  background-color: #fff;
+  /*background-image: url("../images/speakers-bg.jpg");*/
   background-position: 50% 0;
   position: relative;
   background-repeat: repeat;
@@ -500,7 +505,7 @@ li {
 }
 
 #speakers h2 {
-  color: #FFFFFF;
+  color: #C34C39;
 }
 
 .single-speaker {
@@ -509,14 +514,15 @@ li {
 }
 
 .single-speaker h4 {
-  color: #FFFFFF;
+  color: #C34C39;
   font-size: 24px;
   line-height: 26px;
   margin-top: 25px;
 }
 
 .single-speaker h5 {
-  font-size: 18px;
+  color: #000;
+  font-size: 15px;
 }
 
 
