@@ -41,6 +41,10 @@
     font-size: 5rem;
   }
 
+  #home h3{
+    letter-spacing: 15px;
+  }
+
   #home 
   .home-content
   {
@@ -136,7 +140,10 @@
 
   #home h1{
     font-size: 4rem;
-    letter-spacing: 0px;
+  }
+
+  #home h3{
+    letter-spacing: 10px;
   }
 
   /* Explore */
