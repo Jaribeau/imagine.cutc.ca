@@ -34,6 +34,7 @@
 }
 
 .centermiddle {
+  z-index: 0;
   display: block;
   left: 50%;
   top: 50%;
@@ -185,6 +186,7 @@ li {
 }
 
 .caption {
+  z-index: 998;
   /*background: none repeat scroll 0 0 #000000;*/
   /*margin-top: 15%;*/
   position: absolute; 

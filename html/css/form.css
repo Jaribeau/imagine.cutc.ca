@@ -365,7 +365,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #b3160d;
+			background-color: #1D5A90;
 		}
 
 		input[type="submit"]:active,
@@ -373,7 +373,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #630d07;
+			background-color: #06345E;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
