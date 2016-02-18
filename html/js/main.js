@@ -10,6 +10,10 @@ jQuery(function($) {'use strict',
 			// callback function
 		});
 	
+	//Tab Switching in About section
+	jQuery(function () {
+	    jQuery('#aboutTabs a:last').tab('show')
+	})
 
 	
 	//Scroll Menu
