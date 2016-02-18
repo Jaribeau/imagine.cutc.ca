@@ -327,7 +327,7 @@ li {
 }
 
 #explore h2 {
-  font-size: 42px;
+  font-size: 30px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -336,17 +336,24 @@ li {
   display: block;
   overflow: hidden;
   text-align: center;
-  padding: 0;
+  /*margin: 15px 0px 15px 0px;*/
+}
+
+#countdown p {
+  margin-bottom: 0px;
+}
+
+#countdown ul {
+  padding-left: 0px;
 }
 
 #countdown li {
   list-style: none;
   display:inline-block;
-  margin-right: 40px;
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
-  position: relative;
+  margin: 0px 10px 0px 10px;
 }
 
 #countdown li:last-child {
@@ -355,12 +362,7 @@ li {
 
 #countdown li span {
   display: block;
-  font-size: 40px;
-  font-weight: 700;
-  height: 60px;
-  line-height: 79px;
-  width: 75px;
-  border-radius: 10px;
+  font-size: 30px;
 }
 
 .element {
