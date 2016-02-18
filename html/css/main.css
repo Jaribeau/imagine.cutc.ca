@@ -71,7 +71,7 @@ a {
   transition: 300ms;
 }
 
-a:focus, 
+a:focus,
 a:hover {
   text-decoration: none;
   outline: none
@@ -87,8 +87,8 @@ h2 {
   font-size: 25px
 }
 
-.accent { 
-  color:#c8190f; 
+.accent {
+  color:#c8190f;
 }
 
 
@@ -110,7 +110,7 @@ h2 {
 .social-icons a {
   font-size: 18px;
   color: #fff;
-  padding-left:20px;  
+  padding-left:20px;
   text-align: center;
 }
 
@@ -141,8 +141,8 @@ li {
   text-shadow:inherit;
 }
 
-.navbar-right li a:hover, 
-.navbar-right li a:focus,  
+.navbar-right li a:hover,
+.navbar-right li a:focus,
 .navbar-right .active a {
   border-style: solid;
   border-width: 1px;
@@ -174,7 +174,7 @@ li {
   text-align: center;
 }
 
-#home 
+#home
 .home-content {
   height: 98vh;
   width: 100%;
@@ -190,9 +190,9 @@ li {
   /*background: none repeat scroll 0 0 #000000;*/
   /*margin-top: 15%;*/
   width: 100%;
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -266,8 +266,8 @@ li {
 **************************/
 
 #about {
-  background-color: #fff;  
-  position: relative;  
+  background-color: #fff;
+  position: relative;
   display: flex;
 }
 
@@ -297,7 +297,7 @@ li {
 
 #about a {
   text-decoration: underline;
-  color:#c8190f; 
+  color:#c8190f;
 }
 
 #about h3 {
@@ -363,8 +363,11 @@ li {
   border-radius: 10px;
 }
 
-
-
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 /*************************
 *******Countdown CSS******
@@ -378,7 +381,7 @@ li {
 #testimonials p {
   display: inline-block;
   vertical-align: center;
-  line-height: normal; 
+  line-height: normal;
   color: #000;
   align-items: center; /* align vertical */
   text-align: center;
@@ -412,9 +415,6 @@ li {
 }
 
 
-
-
-
 /*************************
 ******Twitter CSS****
 **************************/
@@ -446,21 +446,21 @@ li {
   margin-bottom: 30px;
 }
 
- #twitter-feed .item a, 
-#twitter-feed .item p { 
+ #twitter-feed .item a,
+#twitter-feed .item p {
   font-family: 'Arial', 'sans-serif';
 }
 
 #twitter-feed .item p {
   color: #3D3D3D;
-  padding: 0 40px 0 40px; 
+  padding: 0 40px 0 40px;
 }
 
 #twitter-feed .item a {
   color:#C34C39;
 }
 
-.twitter-control-left, 
+.twitter-control-left,
 .twitter-control-right {
   position: absolute;
   color: #C34C39;
@@ -468,9 +468,9 @@ li {
   font-size: 50px;
 }
 
-.twitter-control-left:hover, 
+.twitter-control-left:hover,
 .twitter-control-right:hover,
-.twitter-control-left:focus, 
+.twitter-control-left:focus,
 .twitter-control-right:focus {
   position: absolute;
   color: #C34C39;
@@ -486,7 +486,7 @@ li {
 .twitter-control-right {
   right:0;
   padding-right: 30px;
-} 
+}
 
 
 
@@ -511,7 +511,7 @@ li {
   width: 100%;
 }
 
-#speakers img {  
+#speakers img {
   border-radius: 50%;
   margin: auto;
 }
@@ -571,8 +571,8 @@ li {
 **************************/
 
 #events {
-  background-color: #fff;  
-  position: relative;  
+  background-color: #fff;
+  position: relative;
   width: 100%;
   display: flex;
   padding-bottom: 70px;
@@ -580,7 +580,7 @@ li {
 
 #events a {
   text-decoration: underline;
-  color:#c8190f; 
+  color:#c8190f;
 }
 
 #events p {
@@ -593,7 +593,7 @@ li {
 }
 
 .whycons {
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -661,7 +661,7 @@ li {
   color: #c8190f;
   text-decoration: underline;
 }
-  
+
 #sponsors a:hover {
   color:#630c07
 }
@@ -671,8 +671,8 @@ li {
 }
 
 #sponsors .title img{
-  margin-top:-130px;
-  height: 250px;
+  margin-top:-75px;
+  height: 175px;
 }
 
 #sponsors .silver img{
@@ -683,6 +683,13 @@ li {
   height: 100px;
 }
 
+#sponsors .past img{
+  height: 100px;
+}
+
+/*************************
+******Team CSS****
+**************************/
 
 
 
@@ -690,7 +697,7 @@ li {
 ******Contact CSS****
 **************************/
 
-#contact {  
+#contact {
   background-color: #C34C39;
   /*background-image: url("../images/event-bg.jpg");*/
   background-position: center bottom;
@@ -714,19 +721,19 @@ li {
   color: #eebab7;
   text-decoration: underline;
 }
-  
+
 #contact a:hover {
   color:#630c07
 }
 
-#contact 
+#contact
 .signup-form {
   margin: auto;
   width: 18em;
   text-align: center;
 }
 
-.social-icons 
+.social-icons
 .fa-facebook,
 .fa-twitter,
 .fa-google-plus,
@@ -739,7 +746,7 @@ li {
   font-size: 1.5em;
 }
 
-.social-icons 
+.social-icons
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-google-plus:hover,
@@ -779,5 +786,3 @@ li {
   display: block;
   overflow: hidden;
 }
-
-
