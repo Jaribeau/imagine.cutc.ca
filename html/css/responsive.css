@@ -154,5 +154,10 @@
     font-size: 14px;
   }
 
+  /*Remove circuit background thinger*/
+  #about, #twitter, #testimonials, #speakers, #events, #sponsors {
+    background-image: none;
+  }
+
 }
 

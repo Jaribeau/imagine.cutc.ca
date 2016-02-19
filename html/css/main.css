@@ -292,6 +292,13 @@ li {
   background-color: #fff;
   position: relative;
   display: flex;
+
+  background-image: url("../images/testimonials-bg.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .about-content {/*
@@ -426,6 +433,13 @@ li {
 #testimonials {
   padding-bottom: 70px;
   display: block;
+
+  background-image: url("../images/testimonials-bg.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
 }
 
 #testimonials p {
@@ -471,9 +485,16 @@ li {
 
 #twitter {
   background-color: #fff;
-  position: relative;
+  /*position: relative;*/
   padding: 0px 0 70px;
   overflow: hidden;
+
+  background-image: url("../images/testimonials-bg.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .twit {
@@ -548,12 +569,19 @@ li {
   /*background-color: #C34C39;*/
   background-color: #fff;
   /*background-image: url("../images/speakers-bg.jpg");*/
-  background-position: 50% 0;
-  position: relative;
-  background-repeat: repeat;
+  /*background-position: 50% 0;*/
+  /*position: relative;*/
+  /*background-repeat: repeat;*/
   padding-bottom: 70px;
   padding-left: 10%;
   padding-right: 10%;
+
+  background-image: url("../images/testimonials-bg.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .speakers-content {
@@ -627,6 +655,13 @@ li {
   width: 100%;
   display: flex;
   padding-bottom: 70px;
+
+  background-image: url("../images/sponsor-bg.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
 }
 
 #events a {
@@ -684,9 +719,9 @@ li {
 
 #sponsors {
   /*background-color: #1e1e1e;*/
-  background-color: #676767;
+  background-color: #fff;
   background-image: url("../images/sponsor-bg.jpg");
-  background-position: 0% 0;
+  background-position: left;
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
