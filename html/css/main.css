@@ -683,9 +683,10 @@ li {
 **************************/
 
 #sponsors {
-  background-color: #1e1e1e;
-  background-image: url("../images/theme-image-tint.png");
-  background-position:50% 0;
+  /*background-color: #1e1e1e;*/
+  background-color: #676767;
+  background-image: url("../images/sponsor-bg.jpg");
+  background-position: 0% 0;
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
@@ -694,7 +695,7 @@ li {
 }
 
 #sponsors h2 {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 #sponsors img {
@@ -706,6 +707,14 @@ li {
 #sponsors p {
   padding-top: 30px;
   text-align: center;
+  color: #000;
+}
+
+#sponsors h4 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #000;
 }
 
 #sponsors a {
@@ -722,7 +731,6 @@ li {
 }
 
 #sponsors .title img{
-  margin-top:-75px;
   height: 175px;
 }
 
