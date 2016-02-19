@@ -1,4 +1,0 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile /nfs/c07/h04/mnt/107492/domains/dev.cutc.ca/html/.htpasswd  
-require valid-user
