@@ -24,6 +24,11 @@
     background-position: 80% 20%;
   }
 
+  /*Remove circuit background thinger*/
+  #about, #twitter, #testimonials, #speakers, #events, #sponsors {
+    background-image: none;
+  }
+
 }
 
 /* xs */
@@ -96,6 +101,12 @@
   .single-speaker h5{
     margin-top: 5px;
   }
+
+  /*Remove circuit background thinger*/
+  #about, #twitter, #testimonials, #speakers, #events, #sponsors {
+    background-image: none;
+  }
+  
 
 }
 
