@@ -173,6 +173,20 @@ li {
   width: 0!important;
 }
 
+.navbar-right .header-tickets a{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.navbar-right .header-tickets a:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c8190f;
+  color: #c8190f;
+}
+
 
 /*************************
 *******Home CSS******
