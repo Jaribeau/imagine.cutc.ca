@@ -636,11 +636,11 @@ li {
 ****** Static-Photo CSS ****
 **************************/
 #static-photo {
-  background-image: url("../images/CUTC-2010-8-tint.jpg");
+  background-image: url("../images/CUTC-2010-9.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: middle;
+  background-position: right top;
   padding: 15% 5% 15% 5%;
 }
 
