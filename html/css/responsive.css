@@ -102,6 +102,10 @@
     margin-top: 5px;
   }
 
+  #speakers h4 {
+    text-decoration: underline;
+  }
+
   /*Remove circuit background thinger*/
   #about, #twitter, #testimonials, #speakers, #events, #sponsors {
     background-image: none;

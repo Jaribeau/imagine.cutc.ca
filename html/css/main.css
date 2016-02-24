@@ -608,6 +608,21 @@ li {
   margin: auto;
 }
 
+#speakers img {
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -kthtml-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+#speakers img:hover {
+    -webkit-filter: sepia(0.2);
+    filter: sepia(0.2);
+    box-shadow: 0 0 0 2px #C34C39;
+}
+
 #speakers h2 {
   color: #C34C39;
 }
