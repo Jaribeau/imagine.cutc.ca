@@ -632,6 +632,39 @@ li {
 
 
 
+
+/*************************
+****** Speaker Modal *****
+**************************/
+#speaker-modal h4 {
+  color: #C34C39;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 25px;
+}
+
+#speaker-modal h5 {
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+#speaker-modal a {
+  color: #C34C39;
+  opacity: 1;
+}
+
+#speaker-modal span {
+  color: #C34C39;
+  font-size: 30px;
+}
+
+#speaker-modal p {
+  color: #000;
+}
+
+
+
 /*************************
 ****** Static-Photo CSS ****
 **************************/
