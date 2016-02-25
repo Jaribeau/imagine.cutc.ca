@@ -289,11 +289,32 @@ li {
 }
 
 #home a:hover {
-  color: #b3160d;
-  border-top: 1px solid #b3160d;
-  border-right: 1px solid #b3160d;
-  border-bottom: 1px solid #b3160d;
-  border-left: 1px solid #b3160d;
+    -webkit-animation: colorFade 5s linear infinite; 
+       -moz-animation: colorFade 5s linear infinite; 
+         -o-animation: colorFade 5s linear infinite; 
+            animation: colorFade 5s linear infinite; 
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorFade {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #b3160d; border-color: #b3160d; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
+}
+@-moz-keyframes colorFade {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #b3160d; border-color: #b3160d; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
+}
+@-o-keyframes colorFade {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #b3160d; border-color: #b3160d; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
+}
+@keyframes colorFade {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #b3160d; border-color: #b3160d; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
 }
 
 
