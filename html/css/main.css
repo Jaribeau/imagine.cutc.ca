@@ -133,7 +133,7 @@ li {
 
 .navbar-right li a {
   margin: 25px 21px;
-  padding: 5px 7px;
+  padding: 2px 7px;
   font-size: 18px;
   color: #c8190f;
   font-family: 'Open Sans', 'sans-serif';
@@ -155,7 +155,9 @@ li {
 
 .nav-logo {
   /*background-image: url("../images/cutx-logo-100.png");*/
-  height: 40px;
+  height: 25px;
+  padding-bottom: 3px;
+  margin: 6px 20px 6px 20px;
 }
 
 .navbar-right .hide-border a{
@@ -215,6 +217,8 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
   transform: translateX(-50%) translateY(-50%);
 }
 
