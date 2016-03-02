@@ -299,10 +299,10 @@ li {
 }
 
 #home a:hover {
-    -webkit-animation: colorFade 5s linear infinite; 
-       -moz-animation: colorFade 5s linear infinite; 
-         -o-animation: colorFade 5s linear infinite; 
-            animation: colorFade 5s linear infinite; 
+    -webkit-animation: colorFade 5s linear infinite;
+       -moz-animation: colorFade 5s linear infinite;
+         -o-animation: colorFade 5s linear infinite;
+            animation: colorFade 5s linear infinite;
   animation-iteration-count: infinite;
 }
 
@@ -905,7 +905,20 @@ li {
 ******Team CSS****
 **************************/
 
+#team {
+  background-color: #fff;
+  position: relative;
+  display: block;
+  background-position: center bottom;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed
+}
 
+.member{
+  padding:0;
+}
 
 /*************************
 ******Contact CSS****
