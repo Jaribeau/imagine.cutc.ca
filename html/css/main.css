@@ -369,7 +369,6 @@ li {
   margin-top: 40px;
 }
 
-
 #about a {
   text-decoration: underline;
   color:#c8190f;
@@ -408,8 +407,6 @@ li {
   border-color: #c8190f;
   border-radius: 0;
 }
-
-
 
 /*************************
 *******Countdown CSS******
@@ -909,11 +906,75 @@ li {
   background-color: #fff;
   position: relative;
   display: block;
+
+  /*background-image: url("../images/MaRS.jpg");*/
   background-position: center bottom;
   background-size: auto 100%;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   position: relative;
-  background-attachment: fixed
+  background-attachment: fixed;
+}
+
+#team a {
+  text-decoration: underline;
+  color:#c8190f;
+}
+
+#team a:hover {
+  color:#630c07
+}
+
+#team h3 {
+  font-size: 20px;
+  color: #c8190f;
+  display: block;
+  margin-top: 0px;
+}
+
+#team p {
+  color: #000000;
+}
+
+#teamTabs a{
+  text-decoration: none;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(14,14,14,0);
+}
+
+#teamTabs li {
+  float: center;
+}
+
+#team .active a{
+  border-width: 1px;
+  border-color: #c8190f;
+  border-radius: 0;
+}
+
+#members{
+  margin: 0 100px 0 100px;
+  padding:0;
+}
+
+#team .text{
+  color: #c8190f;
+  text-align: center;
+}
+
+#team .text-title{
+  padding:0;
+  margin:0;
+}
+
+#team .text-desc{
+  padding:0;
+  margin:0;
+}
+
+.myCol{
+  padding:0;
 }
 
 .team-title{
