@@ -823,8 +823,7 @@ li {
   background-color: #C34C39;
   background-image: url("../images/faq-bg.png");
   background-position: center bottom;
-  background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat:repeat-y;
   position: relative;
   overflow: hidden;
   padding: 15px 10% 70px 10%;
@@ -832,6 +831,15 @@ li {
 
 #faq h2 {
     color: #fff;
+}
+
+#faq h4{
+  font-weight: bold;
+  color: #eee;
+}
+
+#faq p{
+  padding-bottom: 20px;
 }
 
 #faq .one-faq {
@@ -1048,15 +1056,16 @@ li {
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 15px 15px 70px;
+  padding: 15px 15px 30px;
 }
 
-#contact h2 {
-    color: #fff;
+#contact h3 {
+  color: #fff;
+  text-align: center;
 }
 
 #contact p{
-  font-size: 20px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -1097,6 +1106,10 @@ li {
 .fa-instagram:hover,
 .fa-envelope:hover {
   color: #630c07
+}
+
+.copyright p{
+  color: #eebab7;
 }
 
 
