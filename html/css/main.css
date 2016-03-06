@@ -1042,9 +1042,9 @@ li {
 
 #contact {
   background-color: #C34C39;
-  /*background-image: url("../images/event-bg.jpg");*/
+  background-image: url("../images/faq-bg.png");
   background-position: center bottom;
-  background-size: contain;
+  background-size: cover;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
