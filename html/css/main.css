@@ -307,24 +307,24 @@ li {
 }
 
 @-webkit-keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 @-moz-keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 @-o-keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 @keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 
 
