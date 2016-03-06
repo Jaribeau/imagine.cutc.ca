@@ -813,6 +813,44 @@ li {
 }
 
 
+
+
+/*************************
+******FAQ CSS****
+**************************/
+
+#faq {
+  background-color: #C34C39;
+  background-image: url("../images/faq-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 15px 10% 70px 10%;
+}
+
+#faq h2 {
+    color: #fff;
+}
+
+#faq .one-faq {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#faq a {
+  color: #eebab7;
+  text-decoration: underline;
+}
+
+#faq a:hover {
+  color:#630c07
+}
+
+
+
+
 /*************************
 ******Sponsors CSS****
 **************************/
@@ -884,6 +922,10 @@ li {
 
 #sponsors .past img{
   height: 85px;
+}
+
+#sponsors .partners img{
+  max-height: 100px;
 }
 
 /*************************
@@ -993,6 +1035,7 @@ li {
   padding:0;
 }
 
+
 /*************************
 ******Contact CSS****
 **************************/
@@ -1063,15 +1106,13 @@ li {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg2.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
-  font-size: 20px;
-  padding: 50px 0;
+  padding: 20px 0 20px;
   text-align: center;
-  height: 180px;
+  height: auto;
 }
 
 #footer a {
