@@ -48,6 +48,10 @@
     background-position: 85% 20%;
   }
 
+   .home-back-logo {
+      display: none;
+   }
+
   .about-icon-row img {
     height: 60px;
   }
