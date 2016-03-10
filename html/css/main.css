@@ -917,11 +917,11 @@ li {
 }
 
 #sponsors .silver img{
-  height: 130px;
+  max-height: 130px;
 }
 
 #sponsors .bronze img{
-  height: 100px;
+  max-height: 100px;
 }
 
 #sponsors .in-kind img{
@@ -929,7 +929,7 @@ li {
 }
 
 #sponsors .past img{
-  height: 85px;
+  max-height: 85px;
 }
 
 #sponsors .partners img{
