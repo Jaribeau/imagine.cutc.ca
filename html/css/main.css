@@ -338,7 +338,7 @@ li {
   position: relative;
   display: flex;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -476,7 +476,7 @@ li {
   padding-bottom: 70px;
   display: block;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -531,7 +531,7 @@ li {
   padding: 0px 0 70px;
   overflow: hidden;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -618,7 +618,7 @@ li {
   padding-left: 10%;
   padding-right: 10%;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -756,7 +756,7 @@ li {
   display: flex;
   padding-bottom: 70px;
 
-  background-image: url("../images/sponsor-bg.jpg");
+  background-image: url("../images/circuits-side-left.png");
   background-position: left;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -866,9 +866,8 @@ li {
 #sponsors {
   /*background-color: #1e1e1e;*/
   background-color: #fff;
-  background-image: url("../images/sponsor-bg.jpg");
-  background-position: left;
-  background-size: auto 100%;
+  background-image: url("../images/circuits-sides-both.png");
+  background-size: 100%;
   background-repeat:no-repeat;
   position: relative;
   background-attachment: fixed;
@@ -952,14 +951,21 @@ li {
 ******Team CSS****
 **************************/
 
+#team-photo{
+  background-image: url("../images/team.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right top;
+  padding: 0%;
+}
+
 #team {
   background-color: #fff;
   position: relative;
-  display: block;
 
-  /*background-image: url("../images/MaRS.jpg");*/
-  background-position: center bottom;
-  background-size: auto 100%;
+  background-image: url("../images/circuits-sides-both.png");
+  background-size: 100%;
   background-repeat:no-repeat;
   position: relative;
   background-attachment: fixed;
@@ -1029,14 +1035,15 @@ li {
 
 .team-title{
   font-size: 42px;
-  padding: 60px 0px 30px 0px;
+  padding: 60px 0px 0px 0px;
   margin: 0px;
   color: #c8190f;
   text-align: center;
 }
 
 .team-desc{
-  color: black;
+  padding: 0px 0px 30px 0px;
+  color: white;
 }
 
 .member{
