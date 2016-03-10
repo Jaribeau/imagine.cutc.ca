@@ -338,7 +338,7 @@ li {
   position: relative;
   display: flex;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -866,7 +866,7 @@ li {
 #sponsors {
   /*background-color: #1e1e1e;*/
   background-color: #fff;
-  background-image: url("../images/sponsor-bg.jpg");
+  background-image: url("../images/circuits-side-left.png");
   background-position: left;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -962,13 +962,11 @@ li {
 }
 
 #team {
-  background-color: white;
+  background-color: #fff;
   position: relative;
-  display: block;
 
-  /*background-image: url("../images/MaRS.jpg");*/
-  background-position: center bottom;
-  background-size: auto 100%;
+  background-image: url("../images/circuits-sides-both.png");
+  background-size: 100%;
   background-repeat:no-repeat;
   position: relative;
   background-attachment: fixed;
