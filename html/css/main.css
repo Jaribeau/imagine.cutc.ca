@@ -756,7 +756,7 @@ li {
   display: flex;
   padding-bottom: 70px;
 
-  background-image: url("../images/sponsor-bg.jpg");
+  background-image: url("../images/circuits-side-left.png");
   background-position: left;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -866,9 +866,8 @@ li {
 #sponsors {
   /*background-color: #1e1e1e;*/
   background-color: #fff;
-  background-image: url("../images/circuits-side-left.png");
-  background-position: left;
-  background-size: auto 100%;
+  background-image: url("../images/circuits-sides-both.png");
+  background-size: 100%;
   background-repeat:no-repeat;
   position: relative;
   background-attachment: fixed;
