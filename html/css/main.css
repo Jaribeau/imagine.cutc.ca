@@ -952,8 +952,17 @@ li {
 ******Team CSS****
 **************************/
 
+#team-photo{
+  background-image: url("../images/team.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right top;
+  padding: 0%;
+}
+
 #team {
-  background-color: #fff;
+  background-color: white;
   position: relative;
   display: block;
 
@@ -1029,14 +1038,15 @@ li {
 
 .team-title{
   font-size: 42px;
-  padding: 60px 0px 30px 0px;
+  padding: 60px 0px 0px 0px;
   margin: 0px;
   color: #c8190f;
   text-align: center;
 }
 
 .team-desc{
-  color: black;
+  padding: 0px 0px 30px 0px;
+  color: white;
 }
 
 .member{
