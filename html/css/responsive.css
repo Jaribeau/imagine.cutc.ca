@@ -48,6 +48,10 @@
     background-position: 85% 20%;
   }
 
+   .home-back-logo {
+      display: none;
+   }
+
   .about-icon-row img {
     height: 60px;
   }
@@ -71,6 +75,11 @@
 
   #static-photo h2{
     font-size: 20px;
+  }
+
+  #faq {
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   #footer {

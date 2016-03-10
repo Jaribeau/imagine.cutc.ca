@@ -307,24 +307,24 @@ li {
 }
 
 @-webkit-keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 @-moz-keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 @-o-keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 @keyframes colorFade {
-  0%   { color: #FFFFFF; border-color: #FFFFFF; }
-  50%  { color: #b3160d; border-color: #b3160d; }
-  100% { color: #FFFFFF; border-color: #FFFFFF; }
+  0%   { color: #b3160d; border-color: #b3160d; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #b3160d; border-color: #b3160d; }
 }
 
 
@@ -813,6 +813,52 @@ li {
 }
 
 
+
+
+/*************************
+******FAQ CSS****
+**************************/
+
+#faq {
+  background-color: #C34C39;
+  background-image: url("../images/faq-bg.png");
+  background-position: center bottom;
+  background-repeat:repeat-y;
+  position: relative;
+  overflow: hidden;
+  padding: 15px 10% 70px 10%;
+}
+
+#faq h2 {
+    color: #fff;
+}
+
+#faq h4{
+  font-weight: bold;
+  color: #eee;
+}
+
+#faq p{
+  padding-bottom: 20px;
+}
+
+#faq .one-faq {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#faq a {
+  color: #eebab7;
+  text-decoration: underline;
+}
+
+#faq a:hover {
+  color:#630c07
+}
+
+
+
+
 /*************************
 ******Sponsors CSS****
 **************************/
@@ -884,6 +930,10 @@ li {
 
 #sponsors .past img{
   height: 85px;
+}
+
+#sponsors .partners img{
+  max-height: 100px;
 }
 
 /*************************
@@ -993,27 +1043,29 @@ li {
   padding:0;
 }
 
+
 /*************************
 ******Contact CSS****
 **************************/
 
 #contact {
   background-color: #C34C39;
-  /*background-image: url("../images/event-bg.jpg");*/
+  background-image: url("../images/faq-bg.png");
   background-position: center bottom;
-  background-size: contain;
+  background-size: cover;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 15px 15px 70px;
+  padding: 15px 15px 30px;
 }
 
-#contact h2 {
-    color: #fff;
+#contact h3 {
+  color: #fff;
+  text-align: center;
 }
 
 #contact p{
-  font-size: 20px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -1056,6 +1108,10 @@ li {
   color: #630c07
 }
 
+.copyright p{
+  color: #eebab7;
+}
+
 
 /*************************
 ******Footer CSS****
@@ -1063,15 +1119,13 @@ li {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg2.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
-  font-size: 20px;
-  padding: 50px 0;
+  padding: 20px 0 20px;
   text-align: center;
-  height: 180px;
+  height: auto;
 }
 
 #footer a {
