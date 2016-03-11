@@ -476,7 +476,7 @@ li {
   padding-bottom: 70px;
   display: block;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -531,7 +531,7 @@ li {
   padding: 0px 0 70px;
   overflow: hidden;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -618,7 +618,7 @@ li {
   padding-left: 10%;
   padding-right: 10%;
 
-  background-image: url("../images/testimonials-bg.jpg");
+  background-image: url("../images/circuits-side-right.png");
   background-position: right;
   background-size: auto 100%;
   background-repeat:no-repeat;
@@ -916,11 +916,11 @@ li {
 }
 
 #sponsors .silver img{
-  height: 130px;
+  max-height: 130px;
 }
 
 #sponsors .bronze img{
-  height: 100px;
+  max-height: 100px;
 }
 
 #sponsors .in-kind img{
@@ -928,7 +928,7 @@ li {
 }
 
 #sponsors .past img{
-  height: 85px;
+  max-height: 85px;
 }
 
 #sponsors .partners img{
