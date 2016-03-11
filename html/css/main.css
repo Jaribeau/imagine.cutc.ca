@@ -972,7 +972,7 @@ li {
 }
 
 #team a {
-  text-decoration: underline;
+  text-decoration: none;
   color:#c8190f;
 }
 
@@ -1010,13 +1010,14 @@ li {
 }
 
 #members{
-  margin: 0 100px 0 100px;
-  padding:0;
+  margin: 0 150px 0 150px;
+  padding:50px 0 25px 0;
 }
 
 #team .text{
   color: #c8190f;
   text-align: center;
+  padding:0 0 25px 0;
 }
 
 #team .text-title{
@@ -1027,6 +1028,10 @@ li {
 #team .text-desc{
   padding:0;
   margin:0;
+}
+
+.membNav{
+  padding:0 0px 0px 0;
 }
 
 .myCol{
