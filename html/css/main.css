@@ -281,13 +281,21 @@ li {
   transition: all 0.3s ease-in-out;
 }
 
+#home p {
+  /* Remove when early bird sale annotation is removed */
+  margin-top: 50px;
+  color: #fff;
+}
+
 .buy-tickets {
   display: inline-block;
   font-size: 1.5em;
-  margin-top: 50px;
+  /* Put back when early bird sale annotation is removed */
+  /*margin-top: 50px;*/
+  margin-top: -5px;
   margin-bottom: 20px;
   padding: 5px 40px 5px 40px;
-  /*color: #b3160d;*/
+  color: #b3160d;
   color: #ffffff;
 
   background-color: rgb(0,0,0,0);
