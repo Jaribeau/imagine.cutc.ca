@@ -946,6 +946,10 @@ li {
 /*************************
 ******Subsidy CSS****
 **************************/
+#subsidy {
+  padding: 70px 70px 70px 70px;
+}
+
 #subsidy h3 {
   color: #000;
 }
