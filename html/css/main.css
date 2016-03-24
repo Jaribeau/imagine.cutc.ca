@@ -264,16 +264,16 @@ li {
   font-size: 20px;
 }
 
+#home a.facebook-event {
+  font-size: 14px;
+  color: #3E5B9D;
+}
+
 #home a:hover {
   color: #b3160d
 }
 
-#home a:hover i {
-  margin-left: 35px
-}
-
-#home  a i {
-  margin-left: 15px;
+#home a i {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -292,8 +292,8 @@ li {
   font-size: 1.5em;
   /* Put back when early bird sale annotation is removed */
   /*margin-top: 50px;*/
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   padding: 5px 40px 5px 40px;
   color: #b3160d;
   color: #ffffff;
@@ -306,7 +306,25 @@ li {
 
 }
 
-#home a:hover {
+.facebook-event {
+  display: inline-block;
+  font-size: 0.5em;
+  /* Put back when early bird sale annotation is removed */
+  /*margin-top: 50px;*/
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 5px 30px 5px 30px;
+  color: #3E5B9D;
+
+  background-color: rgb(0,0,0,0);
+  border-top: 1px solid #3E5B9D;
+  border-right: 1px solid #3E5B9D;
+  border-bottom: 1px solid #3E5B9D;
+  border-left: 1px solid #3E5B9D;
+
+}
+
+#home a.buy-tickets:hover {
     -webkit-animation: colorFade 5s linear infinite;
        -moz-animation: colorFade 5s linear infinite;
          -o-animation: colorFade 5s linear infinite;
@@ -333,6 +351,36 @@ li {
   0%   { color: #b3160d; border-color: #b3160d; }
   50%  { color: #FFFFFF; border-color: #FFFFFF; }
   100% { color: #b3160d; border-color: #b3160d; }
+}
+
+
+#home a.facebook-event:hover {
+    -webkit-animation: colorFadeBlue 5s linear infinite;
+       -moz-animation: colorFadeBlue 5s linear infinite;
+         -o-animation: colorFadeBlue 5s linear infinite;
+            animation: colorFadeBlue 5s linear infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorFadeBlue {
+  0%   { color: #3E5B9D; border-color: #3E5B9D; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #3E5B9D; border-color: #3E5B9D; }
+}
+@-moz-keyframes colorFadeBlue {
+  0%   { color: #3E5B9D; border-color: #3E5B9D; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #3E5B9D; border-color: #3E5B9D; }
+}
+@-o-keyframes colorFadeBlue {
+  0%   { color: #3E5B9D; border-color: #3E5B9D; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #3E5B9D; border-color: #3E5B9D; }
+}
+@keyframes colorFadeBlue {
+  0%   { color: #3E5B9D; border-color: #3E5B9D; }
+  50%  { color: #FFFFFF; border-color: #FFFFFF; }
+  100% { color: #3E5B9D; border-color: #3E5B9D; }
 }
 
 
