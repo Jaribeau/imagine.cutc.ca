@@ -823,6 +823,50 @@ li {
 
 
 
+
+/*************************
+****** Mail Signup CSS ***
+**************************/
+
+#mail-signup {
+  /*background-color: #4A4A4A;*/
+  background-color: #fff;
+  overflow: hidden;
+
+  background-image: url("../images/circuits-side-left.png");
+  background-position: left;
+  background-size: auto 100%;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
+
+  padding: 15px 10% 20px 10%;
+}
+
+#mail-signup h4 {
+  text-align: center;
+  color: #c8190f;
+}
+
+#mail-signup p {
+  text-align: center;
+  color: #000;
+}
+
+#mail-signup .grey {
+  text-align: center;
+  color: #bbb;
+  font-size: 12px;
+}
+
+#mc_embed_signup {  
+  clear:left; 
+  font:14px
+}
+
+
+
+
 /*************************
 ******FAQ CSS****
 **************************/
