@@ -292,7 +292,7 @@ li {
   font-size: 1.5em;
   /* Put back when early bird sale annotation is removed */
   /*margin-top: 50px;*/
-  margin-top: -5px;
+  margin-top: 5px;
   margin-bottom: 20px;
   padding: 5px 40px 5px 40px;
   color: #b3160d;
