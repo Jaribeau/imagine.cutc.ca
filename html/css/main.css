@@ -266,8 +266,8 @@ li {
 }
 
 #home a.facebook-event {
-  font-size: 14px;
-  color: #758ec8;
+  font-size: 18px;
+  color: #fff;
 }
 
 #home a:hover {
@@ -296,8 +296,7 @@ li {
   margin-top: 25px;
   margin-bottom: 10px;
   padding: 5px 40px 5px 40px;
-  color: #b3160d;
-  color: #ffffff;
+  color: #fff;
 
   background-color: rgb(0,0,0,0);
   border-top: 1px solid #fff;
@@ -315,13 +314,14 @@ li {
   margin-top: 5px;
   margin-bottom: 20px;
   padding: 5px 30px 5px 30px;
-  color: #758ec8;
+  /*color: #758ec8;*/
+  background-color: #435E9F;
 
   background-color: rgb(0,0,0,0);
-  border-top: 1px solid #758ec8;
-  border-right: 1px solid #758ec8;
-  border-bottom: 1px solid #758ec8;
-  border-left: 1px solid #758ec8;
+  border-top: 1px solid #435E9F;
+  border-right: 1px solid #435E9F;
+  border-bottom: 1px solid #435E9F;
+  border-left: 1px solid #435E9F;
 
 }
 
@@ -364,24 +364,24 @@ li {
 }
 
 @-webkit-keyframes colorFadeBlue {
-  0%   { color: #758ec8; border-color: #758ec8; }
-  50%  { color: #FFFFFF; border-color: #FFFFFF; }
-  100% { color: #758ec8; border-color: #758ec8; }
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
 }
 @-moz-keyframes colorFadeBlue {
-  0%   { color: #758ec8; border-color: #758ec8; }
-  50%  { color: #FFFFFF; border-color: #FFFFFF; }
-  100% { color: #758ec8; border-color: #758ec8; }
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
 }
 @-o-keyframes colorFadeBlue {
-  0%   { color: #758ec8; border-color: #758ec8; }
-  50%  { color: #FFFFFF; border-color: #FFFFFF; }
-  100% { color: #758ec8; border-color: #758ec8; }
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
 }
 @keyframes colorFadeBlue {
-  0%   { color: #758ec8; border-color: #758ec8; }
-  50%  { color: #FFFFFF; border-color: #FFFFFF; }
-  100% { color: #758ec8; border-color: #758ec8; }
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
 }
 
 
