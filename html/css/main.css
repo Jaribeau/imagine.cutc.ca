@@ -92,6 +92,10 @@ h2 {
   color:#c8190f;
 }
 
+.small-text {
+  font-size: 10px;
+}
+
 
 /*************************
 *******Header CSS******
@@ -286,7 +290,7 @@ li {
 
 #home p {
   /* Remove when early bird sale annotation is removed */
-  margin-top: 10px;
+  margin-top: 40px;
   color: #fff;
   /*text-align: left;*/
 }
@@ -296,7 +300,7 @@ li {
   font-size: 1.5em;
   /* Put back when early bird sale annotation is removed */
   /*margin-top: 50px;*/
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 10px;
   padding: 5px 40px 5px 40px;
   color: #fff;
@@ -1097,6 +1101,11 @@ li {
 
 #subsidy h3 {
   color: #000;
+}
+
+#subsidy h2 {
+  font-size: 42px;
+  color: #c8190f;
 }
 
 #subsidy p {
