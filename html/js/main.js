@@ -12,7 +12,7 @@ jQuery(function($) {'use strict',
 	
 	//Tab Switching in About section
 	jQuery(function () {
-	    jQuery('#aboutTabs a:last').tab('show')
+	    jQuery('#aboutTabs a:first').tab('show')
 	});
 
 
