@@ -190,6 +190,8 @@ li {
 }
 
 
+
+
 /*************************
 *******Home CSS******
 **************************/
@@ -284,8 +286,9 @@ li {
 
 #home p {
   /* Remove when early bird sale annotation is removed */
-  margin-top: 70px;
+  margin-top: 10px;
   color: #fff;
+  /*text-align: left;*/
 }
 
 .buy-tickets {
@@ -293,7 +296,7 @@ li {
   font-size: 1.5em;
   /* Put back when early bird sale annotation is removed */
   /*margin-top: 50px;*/
-  margin-top: 25px;
+  margin-top: 60px;
   margin-bottom: 10px;
   padding: 5px 40px 5px 40px;
   color: #fff;
