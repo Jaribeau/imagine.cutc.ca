@@ -291,8 +291,22 @@ li {
 #home p {
   /* Remove when early bird sale annotation is removed */
   margin-top: 40px;
+  padding: 10px 0 10px 0;
   color: #fff;
   /*text-align: left;*/
+}
+
+#home .announcements {
+  background-color: #C34C39;
+  background-image: url("../images/faq-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 10px;
 }
 
 .buy-tickets {
