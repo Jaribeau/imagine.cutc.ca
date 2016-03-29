@@ -289,37 +289,55 @@ li {
 }
 
 #home p {
-  /* Remove when early bird sale annotation is removed */
-  margin-top: 40px;
-  padding: 10px 0 10px 0;
+  padding: 10px 25px 10px 25px;
   color: #fff;
-  /*text-align: left;*/
+  margin: 1px;
 }
 
 #home .announcements {
-  background-color: #C34C39;
-  background-image: url("../images/faq-bg.png");
+  margin-top: 40px;
+  display: inline-block;
+}
+
+#home .announcement1 {
+  background-color: #8B0E00;
+  background-image: url("../images/announcement-bg.png");
   background-position: center bottom;
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
+}
 
-  margin-right: 20%;
-  margin-left: 20%;
-  border-radius: 10px;
+#home .announcement2 {
+  background-color: #6E0B02;
+  /*background-color: rgba(110, 11, 2, 0.4);*/
+  background-image: url("../images/announcement-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+#home .announcement3 {
+  background-color: #530802;
+  /*background-color: rgba(139, 14, 0, 0.4);*/
+  background-image: url("../images/announcement-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
 }
 
 .buy-tickets {
   display: inline-block;
   font-size: 1.5em;
-  /* Put back when early bird sale annotation is removed */
-  /*margin-top: 50px;*/
-  margin-top: 20px;
   margin-bottom: 10px;
+  margin-top: 10px;
   padding: 5px 40px 5px 40px;
   color: #fff;
+  width: 100%;
 
-  background-color: rgb(0,0,0,0);
+  background-color: #000;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -330,15 +348,10 @@ li {
 .facebook-event {
   display: inline-block;
   font-size: 0.5em;
-  /* Put back when early bird sale annotation is removed */
-  /*margin-top: 50px;*/
-  margin-top: 5px;
-  margin-bottom: 20px;
-  padding: 5px 30px 5px 30px;
-  /*color: #758ec8;*/
+  padding: 7px 30px 7px 30px;
+  width: 100%;
   background-color: #435E9F;
 
-  background-color: rgb(0,0,0,0);
   border-top: 1px solid #435E9F;
   border-right: 1px solid #435E9F;
   border-bottom: 1px solid #435E9F;
