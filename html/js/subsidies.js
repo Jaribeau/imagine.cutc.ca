@@ -30,11 +30,15 @@ jQuery(function($) {'use strict',
 			'name':"University of Toronto",
 			'departments':[
 				{
-					'name':"Mechanical and Materials Engineering",
-					'subsidyCount':66
+					'name':"Department of Mechanical and Industrial Engineering",
+					'subsidyCount':25,
+					'contact':'Jean Zu',
+					'email':'zu@mie.utoronto.ca'
 				},{
-					'name':"School of Computing",
-					'subsidyCount':0
+					'name':"Department of Computer Science",
+					'subsidyCount':0,
+					'contact':'Ravin Balakrishnan',
+					'email':'chair@cs.toronto.edu'
 				}
 			]
 		}
