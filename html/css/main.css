@@ -1125,10 +1125,13 @@ li {
 **************************/
 #subsidy {
   padding: 70px 70px 70px 70px;
-
 }
 
 #subsidy h3 {
+  color: #000;
+}
+
+#subsidy h5 {
   color: #000;
 }
 
@@ -1151,6 +1154,16 @@ li {
   font-size: 42px;
   color: #fff;
   text-align: center;
+}
+
+.generated-email-draft {
+  width: 100%;
+  white-space: pre-line;
+}
+
+.radio-buttons {
+  color: #000;
+  padding-left: 10px;
 }
 
 .subsidyGoogleForm {
