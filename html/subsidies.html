@@ -54,11 +54,11 @@
     <section id="subsidy">
 
     	<div class="row">
-    		<div class="col-sm-offset-3 col-sm-6">
+    		<div class="col-sm-offset-2 col-sm-8">
     			<h3>Check if you qualify:</h3>
         	</div>
 
-            <div class="col-sm-offset-3 col-sm-6">
+            <div class="col-sm-offset-2 col-sm-8">
                 <p> 
                     School:
                 </p>
@@ -72,7 +72,7 @@
 
 
         <div class="row" id="departmentSelectorDiv" style="display:none;">            
-            <div class="col-sm-offset-3 col-sm-6">
+            <div class="col-sm-offset-2 col-sm-8">
                 <p> 
                     Department:
                 </p>
@@ -86,7 +86,7 @@
 
 
         <div class="row" id="subsidyAvailable" style="display:none;">            
-            <div class="col-sm-offset-3 col-sm-6">
+            <div class="col-sm-offset-2 col-sm-8">
                 <h3>Cha-Ching!</h3>
                 <p>
                     There are <span id="subsidyCount" class="accent"></span> subsidies still up for grabs!
@@ -102,9 +102,8 @@
         </div>
 
 
-        <!-- <div class="row" id="subsidyUnavailable" style="display:none;"> -->
-        <div class="row" id="subsidyUnavailable">
-            <div class="col-sm-offset-3 col-sm-6">
+        <div class="row" id="subsidyUnavailable" style="display:none;">
+            <div class="col-sm-offset-2 col-sm-8">
                 <h3>Shootdarn!</h3>
                 <p>
                     Your department doesn't have any subsidies up for grabs right now. 
@@ -114,40 +113,43 @@
                 </p>
 
                 <!-- Draft email generator -->
-                <h5>Your Name:</h5>
+                <h5><b>What's your name?</b></h5>
                 <input id="your-name-input" type="text">Name</input>
                 
-                <h5>If you are interested in participating in the maker fair, what is the name of your project/team?</h5>
+                <h5><b>If you are interested in participating in the maker fair, what is the name of your project/team?
+                    </br><sub>(Leave blank if not applicable)</sub></b></h5>
                 <input id="project-name-input" type="text">Project/Team</input>
 
-                <h5>Are you requesting a travel grant?</h5>
-                <form class="radio-buttons">
-                    <input id="subsidy-type-input-yes" value="true" type="radio"> Yes</input>
-                    <input id="subsidy-type-input-no" value="false" type="radio"> No</input>
+                <h5><b>Are you also requesting a travel grant?</b></h5>
+                <form class="radio-buttons" id="travel-subsidy-radio">
+                    <input name="travel-type-subsidy" value="true" type="radio"> Yes</input>
+                    <input name="travel-type-subsidy" value="false" type="radio" checked> No</input>
                 </form>
 
 
                 <!-- Generated email -->
-                <p>
-                    <code class="generated-email-draft">
-                        Dear <span id="contact-name">CONTACT NAME</span>,
+                <h5><b>Generated E-mail:</b></h5>
+                <div class="generated-email">
+                    <p>
+                        <code class="generated-email-text">Dear <span id="contact-name">CONTACT NAME</span>,
 
-                        My name is <span id="your-name">YOUR NAME</span>, from  <span id="department-name">DEPARTMENT NAME</span>. I am writing to you to inform you that I am very interested in attending this year’s Canadian Undergraduate Technology Conference, happening on May 7 & 8 in Toronto, Ontario. It is an event that brings 400 other undergrads to a forum which allows delegates to connect with other North American companies and startups in a comfortable and entrepreneurially-driven environment.
+                            My name is <span id="your-name-1">YOUR NAME</span>, from  <span id="department-name-1">DEPARTMENT NAME</span>. I am writing to you to inform you that I am very interested in attending this year’s Canadian Undergraduate Technology Conference, happening on May 7 & 8 in Toronto, Ontario. It is an event that brings 400 other undergrads to a forum which allows delegates to connect with other North American companies and startups in a comfortable and entrepreneurially-driven environment.
 
-                        This event is beneficial for me as a student of <span id="university-name">UNIVERSITY NAME</span> because it allows me to represent the university through challenges posed by companies, and potentially be recognized and approached by representatives about career prospects. <span id="maker-fair-sentence">I would also have an opportunity to present <span id="project-name">PROJECT NAME</span> at the conference, which would showcase not only my hard work, but also the <span id="university-name">UNIVERSITY NAME</span>’s support for innovation and collaboration.</span>
+                            This event is beneficial for me as a student of <span id="school-name-1">UNIVERSITY NAME</span> because it allows me to represent the university through challenges posed by companies, and potentially be recognized and approached by representatives about career prospects. <span id="maker-fair-sentence" style="display:none;">I would also have an opportunity to present <span id="project-name">PROJECT NAME</span> at the conference, which would showcase not only my hard work, but also the <span id="school-name-2">UNIVERSITY NAME</span>’s support for innovation and collaboration.</span>
 
-                        I kindly request a  <span id="subsidy-type">SUBSIDY TYPE</span> to help me offset the cost of attending the conference. With the experience gained from this event, I will be able to connect with students and top employers such as CGI, Microsoft, RBC, and IBM, and this would be an invaluable part of my university career. <span id="travel-sentence">The conference also takes place in Toronto - the Canadian hotspot for startups and companies, and I would truly appreciate a subsidy to offset the cost of such a great opportunity.</span>
-                        
-                        Thank you for your time, and I hope to hear from you soon.
-                        
-                        Sincerely,
-                        
-                        <span id="your-name">YOUR NAME</span>
-                        <span id="department-name">DEPARMENT NAME</span>
-                        <span id="university-name">UNIVERSITY NAME</span>
-                    </code>
+                            I kindly request a ticket <span id="subsidy-type">and travel</span> subsidy to help me offset the cost of attending the conference. With the experience gained from this event, I will be able to connect with students and top employers such as CGI, Microsoft, RBC, and IBM, and this would be an invaluable part of my university career. <span id="travel-sentence" style="display:none;">The conference also takes place in Toronto - the Canadian hotspot for startups and companies, and I would truly appreciate a subsidy to offset the cost of such a great opportunity.</span>
+                            
+                            Thank you for your time, and I hope to hear from you soon.
+                            
+                            Sincerely,
+                            
+                            <span id="your-name-2">YOUR NAME</span>
+                            <span id="department-name-2">DEPARMENT NAME</span>
+                            <span id="school-name-3">UNIVERSITY NAME</span>
+                        </code>
 
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
 

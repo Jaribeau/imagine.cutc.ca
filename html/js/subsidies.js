@@ -50,6 +50,12 @@ jQuery(function($) {'use strict',
 	var selectedSchool;
 	var selectedDepartment;
 
+	var yourNameInput = document.getElementById("your-name-input");
+	var projectNameInput = document.getElementById("project-name-input");
+	var travelSubsidyRadio = document.getElementById("travel-subsidy-radio");
+
+
+
 	//Populate the school selector
 	for(var i = 0; i < schoolsSubsidyData.length; i++)
 	{
@@ -58,6 +64,7 @@ jQuery(function($) {'use strict',
 		newDomElement.value = schoolsSubsidyData[i].name;
 		schoolSelector.appendChild(newDomElement);
 	}
+
 
 
 	schoolSelector.onchange = function() { 
@@ -93,6 +100,7 @@ jQuery(function($) {'use strict',
 	};
 
 
+
 	departmentSelector.onchange = function() { 
 
 		//Store the selected school's data into a separate variable for easy access
@@ -113,14 +121,53 @@ jQuery(function($) {'use strict',
 		{
 			$("#subsidyAvailable").css('display','none');
 			$("#subsidyUnavailable").css('display','block');
+
+			//Pre-fill e-mail with already known information
+			$('#school-name-1').text(selectedSchool.name);
+			$('#school-name-2').text(selectedSchool.name);
+			$('#school-name-3').text(selectedSchool.name);
+			$('#department-name-1').text(selectedDepartment.name);
+			$('#department-name-2').text(selectedDepartment.name);
+			$('#contact-name').text(selectedDepartment.contact);
 		}
-
-		//If it does, show google form
-
-
-		//If not, show e-mail generator
 	};
 
+
+	
+	yourNameInput.oninput = function() {
+
+		$('#your-name-1').text(yourNameInput.value);
+		$('#your-name-2').text(yourNameInput.value);
+	}
+	
+
+
+	projectNameInput.oninput = function() {
+
+		if(projectNameInput.value == "")
+			$('#maker-fair-sentence').css('display','none');
+		else
+		{
+			$('#maker-fair-sentence').css('display','inline');
+			$('#project-name').text(projectNameInput.value);
+		}
+	}
+	
+
+	travelSubsidyRadio.onchange = function() {
+
+		if($("#travel-subsidy-radio :checked")[0].value == "true")
+		{
+			$('#travel-sentence').css('display','inline');
+			$('#subsidy-type').css('display','inline');
+		}
+		else
+		{
+			$('#travel-sentence').css('display','none');
+			$('#subsidy-type').css('display','none');
+
+		}
+	}
 
 
 
