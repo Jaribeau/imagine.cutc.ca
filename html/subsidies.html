@@ -54,11 +54,14 @@
     <section id="subsidy">
 
     	<div class="row">
-    		<div class="col-sm-offset-2 col-sm-8">
+    		<div class="col-sm-offset-1 col-sm-6">
     			<h3>Check if you qualify:</h3>
         	</div>
+    	</div>
 
-            <div class="col-sm-offset-2 col-sm-8">
+        <div class="row">     
+
+            <div class="col-sm-offset-1 col-sm-5">
                 <p> 
                     School:
                 </p>
@@ -67,12 +70,9 @@
                         <option value="">Select your School:</option>
                     </select>
                 </form>
-            </div>
-    	</div>
+            </div>     
 
-
-        <div class="row" id="departmentSelectorDiv" style="display:none;">            
-            <div class="col-sm-offset-2 col-sm-8">
+            <div class="col-sm-5" id="departmentSelectorDiv" style="display:none;">
                 <p> 
                     Department:
                 </p>
@@ -86,12 +86,10 @@
 
 
         <div class="row" id="subsidyAvailable" style="display:none;">            
-            <div class="col-sm-offset-2 col-sm-8">
+            <div class="col-sm-offset-1 col-sm-8">
                 <h3>Cha-Ching!</h3>
                 <p>
-                    There are <span id="subsidyCount" class="accent"></span> subsidies still up for grabs!
-                    </br></br>
-                    Fill out the form below to request your subsidy.
+                    There are <span id="subsidyCount" class="accent"></span> subsidies still up for grabs! Fill out the form below to request your subsidy.
                     </br></br>
                     If you haven't, you'll have to do that first - you have no excuses anymore!
                 </p>
@@ -103,13 +101,13 @@
 
 
         <div class="row" id="subsidyUnavailable" style="display:none;">
-            <div class="col-sm-offset-2 col-sm-8">
+            <div class="col-sm-offset-1 col-sm-8">
                 <h3>Shootdarn!</h3>
                 <p>
                     Your department doesn't have any subsidies up for grabs right now. 
                     </br></br>
                     Want to help make it happen, but don't like writing e-mails? We’ll draft a custom e-mail and tell you who to send it to, just fill in your information below:
-                    <hr>
+                    </br></br>
                 </p>
 
                 <!-- Draft email generator -->
@@ -128,7 +126,7 @@
 
 
                 <!-- Generated email -->
-                <h5><b>Generated E-mail:</b></h5>
+                <h5><b>Ultra-custom Generated E-mail</b></h5>
                 <div class="generated-email">
                     <p>
                         <code class="generated-email-text">Dear <span id="contact-name">CONTACT NAME</span>,

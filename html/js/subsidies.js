@@ -11,21 +11,21 @@ jQuery(function($) {'use strict',
 	});
 
 
+		// {
+		// 	'name':"University of Waterloo",
+		// 	'departments':[
+		// 		{
+		// 			'name':"Systems Design Engineering",
+		// 			'subsidyCount':13
+		// 		},{
+		// 			'name':"Electrical and Computer Engineering",
+		// 			'subsidyCount':7
+		// 		}
+		// 	]
+		// },
 
 	//Subsidies data
 	var schoolsSubsidyData = [
-		{
-			'name':"University of Waterloo",
-			'departments':[
-				{
-					'name':"Systems Design Engineering",
-					'subsidyCount':13
-				},{
-					'name':"Electrical and Computer Engineering",
-					'subsidyCount':7
-				}
-			]
-		},
 		{
 			'name':"University of Toronto",
 			'departments':[
