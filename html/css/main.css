@@ -92,6 +92,10 @@ h2 {
   color:#c8190f;
 }
 
+.small-text {
+  font-size: 10px;
+}
+
 
 /*************************
 *******Header CSS******
@@ -190,6 +194,8 @@ li {
 }
 
 
+
+
 /*************************
 *******Home CSS******
 **************************/
@@ -200,7 +206,7 @@ li {
 
 #home
 .home-content {
-  height: 98vh;
+  height: 100vh;
   width: 100%;
   background-image: url("../images/ImagineBackground.jpg");
   background-size: cover;
@@ -247,7 +253,7 @@ li {
 #home h3 {
   font-size: 18px;
   color: #b3160d;
-  letter-spacing: 20px;
+  letter-spacing: 5px;
 }
 
 #home h4 {
@@ -258,22 +264,23 @@ li {
 
 #home h5 {
   color: #7D878A;
+  padding-top: 25px;
 }
 
 #home a {
   font-size: 20px;
 }
 
+#home a.facebook-event {
+  font-size: 18px;
+  color: #fff;
+}
+
 #home a:hover {
   color: #b3160d
 }
 
-#home a:hover i {
-  margin-left: 35px
-}
-
-#home  a i {
-  margin-left: 15px;
+#home a i {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -282,23 +289,55 @@ li {
 }
 
 #home p {
-  /* Remove when early bird sale annotation is removed */
-  margin-top: 50px;
+  padding: 10px 25px 10px 25px;
   color: #fff;
+  margin: 1px;
+}
+
+#home .announcements {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+#home .announcement1 {
+  background-color: #8B0E00;
+  background-image: url("../images/announcement-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+#home .announcement2 {
+  background-color: #6E0B02;
+  /*background-color: rgba(110, 11, 2, 0.4);*/
+  background-image: url("../images/announcement-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+#home .announcement3 {
+  background-color: #530802;
+  /*background-color: rgba(139, 14, 0, 0.4);*/
+  background-image: url("../images/announcement-bg.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  margin-bottom: 40px;
 }
 
 .buy-tickets {
   display: inline-block;
   font-size: 1.5em;
-  /* Put back when early bird sale annotation is removed */
-  /*margin-top: 50px;*/
-  margin-top: -5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 5px 40px 5px 40px;
-  color: #b3160d;
-  color: #ffffff;
+  color: #fff;
+  width: 100%;
 
-  background-color: rgb(0,0,0,0);
+  background-color: #000;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -306,7 +345,21 @@ li {
 
 }
 
-#home a:hover {
+.facebook-event {
+  display: inline-block;
+  font-size: 0.5em;
+  padding: 7px 30px 7px 30px;
+  width: 100%;
+  
+  background-color: #435E9F;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+
+}
+
+#home a.buy-tickets:hover {
     -webkit-animation: colorFade 5s linear infinite;
        -moz-animation: colorFade 5s linear infinite;
          -o-animation: colorFade 5s linear infinite;
@@ -333,6 +386,36 @@ li {
   0%   { color: #b3160d; border-color: #b3160d; }
   50%  { color: #FFFFFF; border-color: #FFFFFF; }
   100% { color: #b3160d; border-color: #b3160d; }
+}
+
+
+#home a.facebook-event:hover {
+    -webkit-animation: colorFadeBlue 5s linear infinite;
+       -moz-animation: colorFadeBlue 5s linear infinite;
+         -o-animation: colorFadeBlue 5s linear infinite;
+            animation: colorFadeBlue 5s linear infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorFadeBlue {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
+}
+@-moz-keyframes colorFadeBlue {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
+}
+@-o-keyframes colorFadeBlue {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
+}
+@keyframes colorFadeBlue {
+  0%   { color: #FFFFFF; border-color: #FFFFFF; }
+  50%  { color: #758ec8; border-color: #758ec8; }
+  100% { color: #FFFFFF; border-color: #FFFFFF; }
 }
 
 
@@ -417,18 +500,67 @@ li {
 }
 
 /*************************
+****** Mail Signup CSS ***
+**************************/
+
+#mail-signup-1 {
+  /*background-color: #4A4A4A;*/
+  background-color: #fff;
+  background-image: url("../images/circuits-side-left.png");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
+
+  padding: 15px 10% 20px 10%;
+}
+
+#mail-signup-1 h3 {
+  text-align: center;
+  color: #c8190f;
+}
+
+#mail-signup-1 p {
+  text-align: center;
+  color: #000;
+}
+
+#mail-signup-1 .subtle {
+  text-align: center;
+  color: #bbb;
+  font-size: 12px;
+}
+
+
+
+/*************************
 *******Countdown CSS******
 **************************/
 
 #explore {
   background-color: #C34C39;
-  /*background-image: url("../images/event-bg.jpg");*/
+  background-image: url("../images/faq-bg.png");
   background-position: center bottom;
-  background-size: contain;
+  background-size: cover;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 15px 0 15px;
+  padding: 20px 0 30px;
+}
+
+#explore h3 {
+  text-align: center;
+}
+
+#explore p {
+  text-align: center;
+}
+
+#explore .subtle {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 10px;
 }
 
 #explore h2 {
@@ -823,6 +955,50 @@ li {
 
 
 
+
+/*************************
+****** Mail Signup CSS ***
+**************************/
+
+#mail-signup {
+  /*background-color: #4A4A4A;*/
+  background-color: #fff;
+  overflow: hidden;
+
+  background-image: url("../images/circuits-side-left.png");
+  background-position: left;
+  background-size: auto 100%;
+  background-repeat:no-repeat;
+  position: relative;
+  background-attachment: fixed;
+
+  padding: 15px 10% 20px 10%;
+}
+
+#mail-signup h3 {
+  text-align: center;
+  color: #c8190f;
+}
+
+#mail-signup p {
+  text-align: center;
+  color: #000;
+}
+
+#mail-signup .subtle {
+  text-align: center;
+  color: #bbb;
+  font-size: 12px;
+}
+
+#mc_embed_signup {  
+  clear:left; 
+  font:14px
+}
+
+
+
+
 /*************************
 ******FAQ CSS****
 **************************/
@@ -900,10 +1076,11 @@ li {
 }
 
 #sponsors h4 {
-  margin-top: 30px;
-  margin-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   text-align: center;
   color: #000;
+  font-weight: bold;
 }
 
 #sponsors a {
@@ -924,7 +1101,7 @@ li {
 }
 
 #sponsors .silver img{
-  max-height: 130px;
+  max-height: 150px;
 }
 
 #sponsors .bronze img{
@@ -947,15 +1124,76 @@ li {
 ******Subsidy CSS****
 **************************/
 #subsidy {
-  padding: 70px 70px 70px 70px;
+  padding: 30px 70px 70px 70px;
 }
 
 #subsidy h3 {
   color: #000;
 }
 
+#subsidy h5 {
+  color: #000;
+}
+
 #subsidy p {
   color: #000;
+}
+
+#subsidy form, #subsidy input {
+  max-width: 400px;
+}
+
+#page-title {
+  padding: 70px 70px 70px 70px;
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/coins.jpg");
+  background-size: cover;
+  /*background-position: 40% 50%;*/
+  background-position: 50% 50%;
+  position: relative;
+}
+
+#page-title h2 {
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+}
+
+.generated-email {
+  padding: 40px;
+  border-style: solid;
+  border-color: #aaa;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.generated-email-text {
+  width: 100%;
+  white-space: pre-line;
+  color: #000;
+  background: none;
+  font-family: none;
+}
+
+.radio-buttons {
+  color: #000;
+  padding-left: 10px;
+}
+
+.subsidyGoogleForm {
+  width: 100%;
+  height: 1180px;
+
+  position: absolute;
+  top: -150px;
+}
+
+.iFrameOuterDiv {
+  position: relative;
+  width: 100%;
+  height: 1030px;
+  overflow: scroll;
 }
 
 

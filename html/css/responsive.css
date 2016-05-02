@@ -25,7 +25,7 @@
   }
 
   /*Remove circuit background thinger*/
-  #about, #twitter, #testimonials, #speakers, #events, #sponsors {
+  #about, #twitter, #testimonials, #speakers, #events, #sponsors, #mail-signup {
     background-image: none;
   }
 
@@ -112,8 +112,12 @@
   }
 
   /*Remove circuit background thinger*/
-  #about, #twitter, #testimonials, #speakers, #events, #sponsors {
+  #about, #twitter, #testimonials, #speakers, #events, #sponsors, #mail-signup {
     background-image: none;
+  }
+
+  .subsidyGoogleForm {
+    top: 0px;
   }
   
 
@@ -175,7 +179,7 @@
   }
 
   /*Remove circuit background thinger*/
-  #about, #twitter, #testimonials, #speakers, #events, #sponsors {
+  #about, #twitter, #testimonials, #speakers, #events, #sponsors, #mail-signup {
     background-image: none;
   }
 
