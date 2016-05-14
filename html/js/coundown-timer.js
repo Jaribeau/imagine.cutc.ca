@@ -23,7 +23,7 @@
 			
 			if(eventDate <= currentDate) {
 				callback.call(this);
-				clearInterval(interval);
+				// clearInterval(interval); //Commented out since event has past
 			}
 			
 			seconds = eventDate - currentDate;
@@ -53,10 +53,11 @@
 			
 			//update the countdown's html values.
 			if(!isNaN(eventDate)) {
-				thisEl.find(".days").text(days);
-				thisEl.find(".hours").text(hours);
-				thisEl.find(".minutes").text(minutes);
-				thisEl.find(".seconds").text(seconds);
+				 //Commented out since event has past
+				// thisEl.find(".days").text(days);
+				// thisEl.find(".hours").text(hours);
+				// thisEl.find(".minutes").text(minutes);
+				// thisEl.find(".seconds").text(seconds);
 			} else { 
 				alert("Invalid date. Here's an example: 12 Tuesday 2012 17:30:00");
 				clearInterval(interval); 
